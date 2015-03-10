@@ -1,20 +1,29 @@
 #Porkfolio
 
 This is just a side-scrolling full page slide WordPress theme, using superslides.js
-also features a CV slide which is run by custom post types.
+It also features a 'CV' slide which is run by custom post types.
 
 ##Build
-Build with Grunt and Sass.
+Build with Grunt and Sass. For more info go to:
+grunt
 
 ##Credit
-This theme makes use of the [Responsive Grid System](https://github.com/grahammiller/ResponsiveGridSystem) invented by Graham Miller.
+This theme makes use of:
 
-As of version 1.0 this theme uses no JavaScript (natively)...not sure how this happened and its not political :) . Expect js in future versions.
+[Superslides](https://github.com/nicinabox/superslides)by Nic Aitch.
 
-##Disclaimer
-this theme is in development, with a very long TODO list.
-The plan in the short term is to neutralize it into a nice simple starter theme.
-This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a way that wouldn't be practical for a client to maintain (but is easier for me). I doubt this will be of much use to anyone else in its current state. You might like parts of it, which you are free to rip out and use as you choose.
+[Responsive Grid System](https://github.com/grahammiller/ResponsiveGridSystem) by Graham Miller.
+
+[FitText.js](http://daverupert.com) by Dave Rupert
+
+[Responsive-Nav](https://github.com/viljamis/responsive-nav.js) by viljamis
+
+##warning
+This WordPress theme doesn't support blogging....yes I know.
+I doubt this will be of much use to anyone else in its current state. 
+this theme is in development, with a very long TODO list. 
+This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a way that wouldn't be practical for a client to maintain (but is easier for me). 
+
 
 ##Licence
 Released under GPL v3.0
