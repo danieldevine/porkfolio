@@ -1,0 +1,101 @@
+/*==========================VaRIOUS-BOXeS===========================*/
+
+.boxwrap {
+    margin: 0 auto;
+    max-width:95%;
+}
+
+.homebox {
+    margin:2% auto 1em;
+    position:relative;
+    width:auto;
+}
+
+.homebox h2 {
+    color:$secondcolor;
+    padding: 0.5em 0.5em 0;
+    font-size:20px;
+}
+
+.homebox a {
+    text-decoration: none;
+}
+
+.homebox p {
+    color:#fff;
+    text-align:left;
+    padding: 0 0.5em 2em;
+    margin:0;
+    font-size:14px;
+}
+
+.imgcatch {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imgcatch img {
+    display:block;
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    transition:all 2s ease ;
+}
+
+.imgcatch img:hover {
+    opacity:0.5;
+    transition:all 2s ease ;
+}
+
+.centered-title {
+    width:100%;
+    position:absolute;
+    top:0%;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    background:none repeat scroll 0% 0% $thirdtint;
+    padding: 10% 0;
+    opacity:0;
+    transition:all 1s ease;
+}
+
+
+.titlelay {
+    top: 10px;
+    left: 0;
+    background: $secondcolor;
+    color:$thirdcolor;
+    padding: 0.5em;
+    min-width: 80%;
+}
+
+.bodynail img {
+    min-width:100%;
+    height:auto;
+}
+
+.pagenail {
+    display: block;
+    width: 90%;
+    border: #fff 5px solid;
+    box-shadow: rgba(191, 183, 183, 0.99) 0px 5px 20px;
+    margin:20px auto 0;
+}
+
+.pagenail img {
+    min-width:100%;
+    height:auto;
+    vertical-align:middle;
+}
+
+@media screen and (max-width:823px) {
+        .pagenail {
+        display: none;
+    }
+}
+.disappearer {
+  opacity:1.0;
+  top:30%;
+}

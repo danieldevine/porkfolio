@@ -1,0 +1,175 @@
+.mainwrapper {
+    max-width: 71.5%;
+    position: relative;
+    margin-left: 26%;
+    margin-top: 2em;
+    color: $maincolor;
+    background: $secondcolor $texture;
+}
+
+.mainwrapper h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-size:3em;
+}
+
+@media screen and (max-width: 985px) {
+    .mainwrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        top: 250px;
+    }
+}
+
+.pholder {
+    /*display: flex;
+  justify-content: center;
+  align-items: baseline;*/
+
+//    margin-bottom: 190px;
+    padding: 1.5em;
+}
+
+.pholder p {
+    line-height: 20px;
+    text-align: left;
+    padding: 0 2em 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .pholder {
+      /* flex-direction: column-reverse;
+      align-items: none;*/
+    }
+}
+
+@media screen and (max-width: 985px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 986px) {
+    #logo2 {
+        display: none;
+    }
+}
+
+#logo2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 400;
+    opacity: 0.8;
+    img {
+        width: 120px
+    }
+}
+
+.nextprev {
+    background: #333;
+    padding: 10px;
+    margin-bottom: 50px; //linked to footer height
+    color:#fff;
+
+  a{
+    color:#fff;
+     text-transform: uppercase;
+    letter-spacing:2px;
+    font-size:12px;
+  }
+}
+
+.gallery-wrapper {
+    max-width: 70%;
+    position: relative;
+    margin-left: 26%;
+    margin-top: 30px;
+    color: $maincolor;
+}
+
+.gallery-wrapper h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 985px) {
+    .gallery-wrapper {
+        max-width: 100%;
+        position: absolute;
+        margin: 0 auto;
+        top: 20%;
+    }
+}
+
+.gallery-pholder {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+.gallery-pholder p {
+    line-height: 20px;
+    text-align: left;
+    padding: 0 2em 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .gallery-pholder {
+        flex-direction: column-reverse;
+        align-items: none;
+    }
+}
+
+.portfolio-wrapper {
+    max-width: 100%;
+    position: relative;
+    margin-left: 24%;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    color: $maincolor;
+}
+
+.portfolio-wrapper h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 985px) {
+    .portfolio-wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        top: 20%;
+    }
+}
+
+input.button {
+  background: $buttoncolor;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top:20px;
+  text-align:right;
+  font-size:1em;
+  text-transform:uppercase;
+}
+
+.gfield_label {
+  font-style:normal;
+  text-align:left;
+  font-weight:normal !important;
+  font-size:13px;
+  text-transform:uppercase;
+  color:#fff;
+  padding:5px 10px;
+  background:$thirdcolor;
+}
+
+input.button:hover{
+  cursor: pointer;
+  background:rgba(32, 20, 98, 0.81);
+}

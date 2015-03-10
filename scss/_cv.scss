@@ -1,0 +1,66 @@
+.cv {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+  h1, h3, h4 {
+    margin: 0;
+    font-weight: 100;
+  }
+
+  h2 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: -10px;
+  }
+}
+
+.highlight {
+  color: $thirdcolor;
+}
+
+.cv-wrapper {
+  max-width: 71.5%;
+  position: relative;
+  margin-left: 26%;
+  margin-top: 2em;
+  color: $maincolor;
+  background: #fff;
+  padding: 0 50px;
+}
+
+.cv-wrapper h1 {
+  text-transform: uppercase;
+  padding: 10px 0 0 0;
+  margin: 0;
+  font-size: 3em;
+}
+
+@media screen and (max-width: 985px) {
+  .cv-wrapper {
+    max-width: 100%;
+    margin: 0 auto 500px;
+    top: 250px;
+  }
+}
+
+.experience {
+  padding-bottom: 30px;
+  padding-right: 35px
+}
+
+.skills {
+  padding: 0 0 0 2em;
+  border-left:1px solid $thirdcolor;
+}
+
+.skills ul {
+  margin-bottom:10px;
+}
+
+.cv-title {
+  margin: 10px auto;
+  font-size: 25px;
+  font-weight: normal;
+  color:$thirdcolor;
+}

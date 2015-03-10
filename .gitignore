@@ -1,0 +1,16 @@
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+
+node_modules/*
+reference/*
+.htaccess
+.sass-cache
+*.css.map
+img/raw/*
+img/store/*
