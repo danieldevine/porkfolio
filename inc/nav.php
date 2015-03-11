@@ -20,7 +20,7 @@
         <li><a href="/#6">Contact Me</a>
         </li>
         <li>
-            <div id="deets">
+            <div id="contact-details">
                 <ul>
                     <li><i class="fa fa-phone fa-1x"></i> &nbsp; +353 85152 7761</li>
                     <li><i class="fa fa-bookmark fa-1x"></i> &nbsp; Upper Sunville, Ardpatrick, <br />Co. Limerick, Ireland</li>

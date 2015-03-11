@@ -1,5 +1,6 @@
 /*========== the main navigation block ==========*/
-#nave  {
+
+#nave {
   position: fixed !important;
   width: 20%;
   min-height: 100%;
@@ -110,10 +111,9 @@ screen and (min-resolution: 2dppx) {
     left: 18em
   }
 }
-
 /*==========list of contact details after the menu.==========*/
 
-#deets {
+#contact-details {
   margin-top: 40px;
   text-align: left;
   padding-left: 22px;
@@ -121,25 +121,25 @@ screen and (min-resolution: 2dppx) {
 }
 
 @media screen and (max-width: 985px) {
-  #deets {
-    text-align:center;
+  #contact-details {
+    text-align: center;
   }
 }
-#deets li {
-  text-transform:uppercase;
-  font-size:13px;
-  }
 
-#deets li:first-child {
- padding:0.7em 0;
- font-size:14px;
-  }
+#contact-details li {
+  text-transform: uppercase;
+  font-size: 13px;
+}
 
+#contact-details li:first-child {
+  padding: 0.7em 0;
+  font-size: 14px;
+}
 
-#deets ul li a {
+#contact-details ul li a {
   border-bottom: 1px dotted $maincolor;
-  display:initial;
-  font-size:13px;
-  padding:0;
-  margin:0;
+  display: initial;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
 }
