@@ -25,8 +25,8 @@
                     <li><i class="fa fa-phone fa-1x"></i> &nbsp; +353 85152 7761</li>
                     <li><i class="fa fa-bookmark fa-1x"></i> &nbsp; Upper Sunville, Ardpatrick, <br />Co. Limerick, Ireland</li>
                     <li><i class="fa fa-envelope fa-1x"></i>  &nbsp; <a href="mailto:dan@blackroad.ie">dan@blackroad.ie</a> </li>
-                    <li><i class="fa fa-github fa-1x"></i>  &nbsp; <a href="https://github.com/danieldevine">Dan on Github</a> </li>
-                    <li><i class="fa fa-twitter fa-1x"></i>  &nbsp; <a href="https://twitter.com/blackroaddesign">Dan on Twitter</a> </li>
+                    <li><i class="fa fa-github fa-1x"></i>  &nbsp; <a href="https://github.com/danieldevine" target="blank">Dan on Github</a> </li>
+                    <li><i class="fa fa-twitter fa-1x"></i>  &nbsp; <a href="https://twitter.com/blackroaddesign" target="blank">Dan on Twitter</a> </li>
                 </ul>
             </div>
         </li>

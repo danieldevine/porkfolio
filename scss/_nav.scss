@@ -1,4 +1,5 @@
-#nave {
+/*========== the main navigation block ==========*/
+#nave  {
   position: fixed !important;
   width: 20%;
   min-height: 100%;
@@ -6,7 +7,7 @@
   margin: 0;
   padding: 0;
   z-index: 5;
-  left: 0;
+  left: 20px;
   top: 0;
 }
 
@@ -110,6 +111,8 @@ screen and (min-resolution: 2dppx) {
   }
 }
 
+/*==========list of contact details after the menu.==========*/
+
 #deets {
   margin-top: 40px;
   text-align: left;
@@ -117,6 +120,11 @@ screen and (min-resolution: 2dppx) {
   text-indent: -10px;
 }
 
+@media screen and (max-width: 985px) {
+  #deets {
+    text-align:center;
+  }
+}
 #deets li {
   text-transform:uppercase;
   font-size:13px;

@@ -26,12 +26,14 @@ function pfo_slides() {
         'not_found_in_trash' => __( 'No slides found in the Trash' ),
         'parent_item_colon'  => '',
         'menu_name'          => 'Slides'
+
     );
     $args = array(
         'labels'        => $labels,
         'description'   => 'Holds our slides and slide specific data',
         'public'        => true,
         'menu_position' => 5,
+        'menu_icon'     => 'dashicons-slides',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
@@ -50,19 +52,20 @@ function pfo_portfolios() {
         'add_new_item'       => __( 'Add New portfolio' ),
         'edit_item'          => __( 'Edit portfolio' ),
         'new_item'           => __( 'New portfolio' ),
-        'all_items'          => __( 'All portfolios' ),
+        'all_items'          => __( 'All portfolio entries' ),
         'view_item'          => __( 'View portfolio' ),
         'search_items'       => __( 'Search portfolios' ),
         'not_found'          => __( 'No portfolios found' ),
         'not_found_in_trash' => __( 'No portfolios found in the Trash' ),
         'parent_item_colon'  => '',
-        'menu_name'          => 'Portfolios'
+        'menu_name'          => 'Portfolio'
     );
     $args = array(
         'labels'        => $labels,
         'description'   => 'Holds our portfolios and portfolio specific data',
         'public'        => true,
         'menu_position' => 6,
+        'menu_icon'     => 'dashicons-portfolio',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
@@ -93,6 +96,7 @@ function pfo_experiences() {
         'description'   => 'Holds our experiences and experience specific data',
         'public'        => true,
         'menu_position' => 7,
+      'menu_icon'     => 'dashicons-star-filled',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
@@ -123,6 +127,7 @@ function pfo_skills() {
         'description'   => 'Holds our skills and skill specific data',
         'public'        => true,
         'menu_position' => 8,
+        'menu_icon'     => 'dashicons-welcome-learn-more',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here

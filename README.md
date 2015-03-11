@@ -21,7 +21,7 @@ This theme makes use of:
 
 [Responsive-Nav](https://github.com/viljamis/responsive-nav.js) by viljamis
 
-##warning
+##Warning
 This WordPress theme doesn't support blogging....yes I know.
 I doubt this will be of much use to anyone else in its current state.
 this theme is in development, with a very long TODO list.

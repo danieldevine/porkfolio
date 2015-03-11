@@ -1,4 +1,71 @@
-/* Magnific Popup CSS */
+/*========== the color palette ==========*/
+.entry-content img {
+  margin: 0 auto 1.5em auto;
+  max-width: 80%;
+  height: auto; }
+
+.alignleft,
+img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left; }
+
+.alignright,
+img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right; }
+
+.aligncenter,
+img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both; }
+
+.alignnone,
+img.alignnone {
+  /* not sure about this one */ }
+
+.wp-caption {
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+  max-width: 100%; }
+
+.wp-caption img {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  height: auto; }
+
+.wp-caption p.wp-caption-text {
+  line-height: 1.5;
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase; }
+
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em; }
+
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left; }
+
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right; }
+
+/*========== Styling for the galleries and magnific popup ==========*/
 .mfp-bg {
   top: 0;
   left: 0;
@@ -400,17 +467,18 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-div.popup-gallery {
-  text-align: center;
-  margin-bottom: 40px; }
+/*========== Styles for ACF gallery output ==========*/
+.popup-gallery {
+  /*  text-align: center;
+  margin-bottom: 40px;*/ }
 
-div.image-wrap {
+.image-wrap {
   width: 30%;
   /* Change this value to have your thumbnails laid out differently */
   margin-bottom: 4px;
   display: inline-block; }
 
-div.image-wrap img {
+.image-wrap img {
   width: 100%; }
 
 a.lightbox-link {
@@ -443,6 +511,8 @@ a.lightbox-link:hover {
   margin-left: 0.6em;
   width: 100%; }
 
+/*========== Gravity Forms styling, as minimal as possible.===========*/
+/*===Use GUI to turn off CSS output from the plug-in to use this.=====*/
 .gform_wrapper {
   overflow: inherit;
   margin: 10px 0;
@@ -884,7 +954,7 @@ body {
   width: 100%;
   color: #333;
   font-family: sans-serif;
-  background: rgba(247, 247, 247, 0.83) url("../img/build/14.png");
+  background: rgba(255, 253, 253, 0.94) url("../img/build/14.png");
   text-align: center;
   overflow: hidden; }
 
@@ -898,6 +968,14 @@ ul {
   ul li {
     list-style: none; }
 
+hr {
+  border-top: 1px dotted rgba(28, 28, 33, 0.94);
+  color: #fff; }
+
+strong {
+  font-weight: 500; }
+
+/*========== Headings ==========*/
 h2,
 h3,
 h4 {
@@ -915,6 +993,7 @@ h1 {
   font-size: 3em;
   margin: 20px 0; }
 
+/*==========quotes==========*/
 blockquote:before {
   content: "\201C";
   color: rgba(185, 30, 23, 0.85);
@@ -935,20 +1014,21 @@ blockquote:after {
   margin-left: 10px;
   font-weight: 900; }
 
-hr {
-  border-top: 1px dotted rgba(28, 28, 33, 0.94);
-  color: #fff; }
+.flex-friend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
 
-strong {
-  font-weight: 500; }
-
+@media screen and (max-width: 823px) {
+  .flex-friend {
+    height: auto; } }
 .mainwrapper {
   max-width: 71.5%;
   position: relative;
-  margin-left: 26%;
-  margin-top: 2em;
+  margin-left: 23%;
   color: rgba(28, 28, 33, 0.94);
-  background: rgba(247, 247, 247, 0.83) url("../img/build/14.png"); }
+  background: rgba(255, 253, 253, 0.94) url("../img/build/14.png"); }
 
 .mainwrapper h1 {
   text-transform: uppercase;
@@ -959,23 +1039,23 @@ strong {
 @media screen and (max-width: 985px) {
   .mainwrapper {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 300px;
     top: 250px; } }
 .pholder {
-  /*display: flex;
-justify-content: center;
-align-items: baseline;*/
   padding: 1.5em; }
 
 .pholder p {
-  line-height: 20px;
+  line-height: 23px;
   text-align: left;
-  padding: 0 2em 0.5em; }
+  margin: 5px auto;
+  padding: 0px 5% 0px 0px;
+  font-size: 16px;
+  font-weight: 300; }
 
 @media screen and (max-width: 600px) {
   .pholder {
     /* flex-direction: column-reverse;
-    align-items: none;*/ } }
+      align-items: none;*/ } }
 @media screen and (max-width: 985px) {
   .logo {
     display: none; } }
@@ -1005,8 +1085,7 @@ align-items: baseline;*/
 .gallery-wrapper {
   max-width: 70%;
   position: relative;
-  margin-left: 26%;
-  margin-top: 30px;
+  margin-left: 23%;
   color: rgba(28, 28, 33, 0.94); }
 
 .gallery-wrapper h1 {
@@ -1017,9 +1096,7 @@ align-items: baseline;*/
 @media screen and (max-width: 985px) {
   .gallery-wrapper {
     max-width: 100%;
-    position: absolute;
-    margin: 0 auto;
-    top: 20%; } }
+    margin: 0 auto; } }
 .gallery-pholder {
   display: flex;
   justify-content: center;
@@ -1027,9 +1104,10 @@ align-items: baseline;*/
   margin-bottom: 50px; }
 
 .gallery-pholder p {
-  line-height: 20px;
+  line-height: 23px;
   text-align: left;
-  padding: 0 2em 0.5em; }
+  padding: 0 2em 0.5em;
+  font-weight: 300; }
 
 @media screen and (max-width: 600px) {
   .gallery-pholder {
@@ -1040,7 +1118,6 @@ align-items: baseline;*/
   position: relative;
   margin-left: 24%;
   margin-top: 10px;
-  margin-bottom: 80px;
   color: rgba(28, 28, 33, 0.94); }
 
 .portfolio-wrapper h1 {
@@ -1051,7 +1128,7 @@ align-items: baseline;*/
 @media screen and (max-width: 985px) {
   .portfolio-wrapper {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 200px;
     top: 20%; } }
 input.button {
   background: rgba(31, 71, 240, 0.69);
@@ -1077,6 +1154,7 @@ input.button:hover {
   cursor: pointer;
   background: rgba(32, 20, 98, 0.81); }
 
+/*========== Styling for the CV section ==========*/
 .cv {
   text-align: left;
   padding: 0;
@@ -1129,6 +1207,7 @@ input.button:hover {
   font-weight: normal;
   color: rgba(185, 30, 23, 0.85); }
 
+/*========== fixed footer ==========*/
 footer {
   display: flex;
   width: 100%;
@@ -1247,6 +1326,7 @@ footer {
 
   .span_1_of_12 {
     width: 100%; } }
+/*========== the main navigation block ==========*/
 #nave {
   position: fixed !important;
   width: 20%;
@@ -1255,7 +1335,7 @@ footer {
   margin: 0;
   padding: 0;
   z-index: 5;
-  left: 0;
+  left: 20px;
   top: 0; }
 
 #nave ul {
@@ -1337,12 +1417,16 @@ footer {
   .main {
     width: auto;
     left: 18em; } }
+/*==========list of contact details after the menu.==========*/
 #deets {
   margin-top: 40px;
   text-align: left;
   padding-left: 22px;
   text-indent: -10px; }
 
+@media screen and (max-width: 985px) {
+  #deets {
+    text-align: center; } }
 #deets li {
   text-transform: uppercase;
   font-size: 13px; }
@@ -1433,7 +1517,7 @@ footer {
 .statics-pagination a.current {
   background: #222; }
 
-/*==========================VaRIOUS-BOXeS===========================*/
+/*==========================boxed items - will be named better (TO DO) ===========================*/
 .boxwrap {
   margin: 0 auto;
   max-width: 95%; }
@@ -1444,7 +1528,7 @@ footer {
   width: auto; }
 
 .homebox h2 {
-  color: rgba(247, 247, 247, 0.83);
+  color: rgba(255, 253, 253, 0.94);
   padding: 0.5em 0.5em 0;
   font-size: 20px; }
 
@@ -1489,7 +1573,7 @@ footer {
 .titlelay {
   top: 10px;
   left: 0;
-  background: rgba(247, 247, 247, 0.83);
+  background: rgba(255, 253, 253, 0.94);
   color: rgba(185, 30, 23, 0.85);
   padding: 0.5em;
   min-width: 80%; }
@@ -1517,7 +1601,7 @@ footer {
   opacity: 1.0;
   top: 30%; }
 
-/* Magnific Popup CSS */
+/*========== Styling for the galleries and magnific popup ==========*/
 .mfp-bg {
   top: 0;
   left: 0;
@@ -1919,17 +2003,18 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-div.popup-gallery {
-  text-align: center;
-  margin-bottom: 40px; }
+/*========== Styles for ACF gallery output ==========*/
+.popup-gallery {
+  /*  text-align: center;
+  margin-bottom: 40px;*/ }
 
-div.image-wrap {
+.image-wrap {
   width: 30%;
   /* Change this value to have your thumbnails laid out differently */
   margin-bottom: 4px;
   display: inline-block; }
 
-div.image-wrap img {
+.image-wrap img {
   width: 100%; }
 
 a.lightbox-link {

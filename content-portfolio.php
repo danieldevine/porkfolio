@@ -20,13 +20,14 @@
     <li>
 
       <div class="container scrollable">
-
+       <div class="flex-friend">
         <div class="gallery-wrapper">
+
         <?php get_template_part('inc/porkfolio-gallery'); ?>
         <h1><?php the_title(); ?></h1>
 
         <div class="gallery-pholder">
-        <p><?php the_content(); ?></p>
+          <p><?php the_content(); ?></p>
         </div>
 
         <div class="nextprev">
@@ -35,7 +36,7 @@
         </div>
 
         </div>
-
+       </div>
       </div>
 
     </li>

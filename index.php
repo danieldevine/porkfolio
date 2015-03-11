@@ -9,12 +9,10 @@
   */
   get_header();?>
 
-<div class="mainwrapper">
-
   <?php while ( have_posts() ) : the_post(); ?>
   <?php get_template_part( 'content' ); ?>
   <?php endwhile; // end of the loop. ?>
 
-</div>
+
 
 <?php get_footer(); ?>
