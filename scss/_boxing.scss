@@ -33,6 +33,7 @@
     width: 100%;
     position: relative;
     margin: 0 auto;
+  transition:all 4s ease ;
 }
 
 .imgcatch img {
@@ -42,23 +43,30 @@
     height:auto;
     transition:all 2s ease ;
 }
-
+.imgcatch:hover {
+  background:$fourthtint $texture;
+  border-radius:500px;
+  transition:all 4s ease ;
+}
 .imgcatch img:hover {
     opacity:0.5;
     transition:all 2s ease ;
 }
 
 .centered-title {
-    width:100%;
     position:absolute;
+    width:100%;
     top:0%;
     color:#fff;
     text-transform:uppercase;
     letter-spacing:1px;
     background:none repeat scroll 0% 0% $thirdtint;
-    padding: 10% 0;
     opacity:0;
     transition:all 1s ease;
+    border-radius: 200px;
+    font-family: brandon-grotesque;
+    margin:1em 0;
+
 }
 
 
@@ -100,4 +108,8 @@
 .disappearer {
   opacity:1.0;
   top:30%;
+}
+
+.responsive_headline {
+  padding:1em 0;
 }
