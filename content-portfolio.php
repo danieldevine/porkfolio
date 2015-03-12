@@ -11,7 +11,7 @@
 
 <div id="statics"><!--full screen, no sliding-->
 
-<div id="logo2"><!--  this is the logo at weenie sizes-->
+  <div id="logo2"><!--  this is the logo at weenie sizes-->
     <img src="<?php echo get_bloginfo('template_directory');?>/img/build/logo2.png">
   </div>
 

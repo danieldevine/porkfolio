@@ -10,6 +10,10 @@ Build with Grunt and Sass.For more info on how:
 
 [Learn Sass](http://sass-lang.com/guide)
 
+###Dependencies
+Needs Gravity forms, ACF v4 and the ACF gallery plug in at the moment.
+(TODO: write up the extra meta fields myself, use an alternative to Gravity.)
+
 ##Credit
 This theme makes use of:
 

@@ -17,8 +17,8 @@
 <title><?php wp_title('&raquo;','true','right'); ?></title>
 
 <link href="/favicon.ico" rel="shortcut icon">
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <?php wp_head(); ?>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 <script src="//use.typekit.net/hbv5yml.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
