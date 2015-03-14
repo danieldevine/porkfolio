@@ -6,6 +6,9 @@
   * @author       :    Dan Devine
   * @license      :    GPLv3
   * @filesource   :    wp-content/themes/porkfolio/content-portfolio.php
+  *
+  *this is the content for the individual pages in the portfolio section.
+  *
   */
 ?>
 
@@ -17,11 +20,11 @@
 
   <ul class="statics-container">
 
-    <li>
+    <li> <!--  eeach li equals a 'slide'  -->
 
-      <div class="container scrollable">
-       <div class="flex-friend">
-        <div class="gallery-wrapper">
+      <div class="container scrollable"> <!--  this class means we can have vertical scrolling -->
+       <div class="flex-friend"><!--  absolute center the contents of the 'slide'.-->
+        <div class="gallery-wrapper"><!--  wrapper specific to gallery holding pages -->
 
         <?php get_template_part('inc/porkfolio-gallery'); ?>
         <h1><?php the_title(); ?></h1>
@@ -35,12 +38,12 @@
           <?php next_post('% &raquo; &raquo;', '', 'yes'); ?>
         </div>
 
-        </div>
-       </div>
-      </div>
+        </div><!--  end gallery-wrapper -->
+       </div><!--  end flex-friend -->
+      </div><!--  end container scrollable -->
 
-    </li>
+    </li> <!-- end of this 'slide'  -->
 
-  </ul>
+  </ul> 
 
 </div>
