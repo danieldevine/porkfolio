@@ -1,7 +1,7 @@
 #Porkfolio
 
 This is just a side-scrolling full page slide WordPress theme, using superslides.js
-It also features a 'CV' slide which is run by custom post types.
+It also features a 'CV' slide which is run by custom post types. Its ultra-specific to my own site right now, but I'm interested in developing this into something more broadly useful.
 
 ##Build
 Build with Grunt and Sass.For more info on how:

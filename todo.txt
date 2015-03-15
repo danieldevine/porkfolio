@@ -1,0 +1,16 @@
+# CSS ENFIXENING
+- check max width
+- adjust gallery item width
+- 
+
+# PHP IMPROVEMENTISATION
+
+# MINIMISE DEPENDENCIES (IFICATION)
+
+# PERFORMANCE DISUNDERENHANCEMENT
+-responsive images.
+-lazy loading background images/galleries(?)
+
+# JS RECONFRABULATION
+-
+
