@@ -1,4 +1,14 @@
 <?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    functions.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/functions.php
+  *
+  */
+
 
 include_once('inc/functions/PFO_register-menus.php');
 include_once('inc/functions/PFO_add-image-class.php');
