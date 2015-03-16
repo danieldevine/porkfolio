@@ -1,7 +1,7 @@
 # CSS ENFIXENING
 - check max width
 - adjust gallery item width
-- 
+-
 
 # PHP IMPROVEMENTISATION
 
