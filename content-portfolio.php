@@ -20,7 +20,7 @@
 
   <ul class="statics-container">
 
-    <li> <!--  eeach li equals a 'slide'  -->
+    <li> <!-- each li equals a 'slide'  -->
 
       <div class="container scrollable"> <!--  this class means we can have vertical scrolling -->
        <div class="flex-friend"><!--  absolute center the contents of the 'slide'.-->
@@ -44,6 +44,6 @@
 
     </li> <!-- end of this 'slide'  -->
 
-  </ul> 
+  </ul>
 
 </div>

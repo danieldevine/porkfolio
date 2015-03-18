@@ -31,6 +31,5 @@ I doubt this will be of much use to anyone else in its current state.
 this theme is in development, with a very long TODO list.
 This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a way that wouldn't be practical for a client to maintain (but is easier for me).
 
-
 ##Licence
 Released under GPL v3.0

@@ -9,7 +9,6 @@
  *
  *this is the loop and template for the individual pages in the portfolio section.
  */
-
 get_header(); ?>
 
 <?php get_template_part('inc/nav'); ?>
@@ -19,3 +18,4 @@ get_header(); ?>
 <?php endwhile; // end of the loop. ?>
 
 <?php get_footer(); ?>
+fartaing
