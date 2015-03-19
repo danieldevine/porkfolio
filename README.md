@@ -17,7 +17,7 @@ Needs Gravity forms, ACF v4 and the ACF gallery plug in at the moment.
 ##Credit
 This theme makes use of:
 
-[Superslides](https://github.com/nicinabox/superslides)by Nic Aitch.
+[Superslides](https://github.com/nicinabox/superslides) by Nic Aitch.
 
 [Responsive Grid System](https://github.com/grahammiller/ResponsiveGridSystem) by Graham Miller.
 
