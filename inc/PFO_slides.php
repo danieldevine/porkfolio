@@ -1,3 +1,15 @@
+<?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    PFO_slides.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_slides.php
+  *
+  *the main layout of each slide happens here.
+  */
+?>
 <div id="slides">
 
   <div id="logo2">

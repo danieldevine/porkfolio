@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    portfolio-slide.php
+  * @file         :    PFO_portfolio-slide.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/portfolio-slide.php
+  * @filesource   :    wp-content/themes/porkfolio/PFO_portfolio-slide.php
   *
   *this is the main template for the portfolio 'index' slide.
   */

@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    cv.php
+  * @file         :    PFO_cv.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/inc/functions/cv.php
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_cv.php
   *
   */
 ?>
