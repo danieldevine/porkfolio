@@ -1,3 +1,14 @@
+<?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    fouracross.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/fouracross.php
+  *
+  */
+?>
 <div class="boxwrap">
 
         <!----------------group-one----------------->

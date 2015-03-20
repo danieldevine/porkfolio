@@ -9,7 +9,6 @@
   *
   */
 
-
 include_once('inc/functions/PFO_register-menus.php');
 include_once('inc/functions/PFO_add-image-class.php');
 include_once('inc/functions/PFO_enqueue-stuff.php');

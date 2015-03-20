@@ -1,3 +1,14 @@
+<?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    experience.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/experience.php
+  *
+  */
+?>
 <?php $args=array( 'post_type'=>'experience' ); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
 <div class="experience"><?php the_field('dates'); ?><br />

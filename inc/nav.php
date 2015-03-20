@@ -13,8 +13,7 @@
         </li>
         <li><a href="/#3">Portfolio</a>
         </li>
-        <!--<li><a href="/#4">Blog</a>
-        </li>-->
+        <!--<li><a href="/#4">Blog</a></li>-->
         <li><a href="/#5">CV</a>
         </li>
         <li><a href="/#6">Contact Me</a>

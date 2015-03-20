@@ -1,16 +1,17 @@
 # CSS ENFIXENING
 - check max width
 - adjust gallery item width
--
+- h1 padding
 
 # PHP IMPROVEMENTISATION
+- user options page
+- Seperate CV from rest of site
+- namespace includes
 
 # MINIMISE DEPENDENCIES (IFICATION)
 
 # PERFORMANCE DISUNDERENHANCEMENT
--responsive images.
--lazy loading background images/galleries(?)
+- responsive images
 
 # JS RECONFRABULATION
--
 
