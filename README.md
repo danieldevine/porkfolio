@@ -5,7 +5,7 @@
 
 This is just a side-scrolling full page slide WordPress theme, using superslides.js
 It also features a 'CV' slide which is run by custom post types. Its ultra-specific to my own site right now, but I'm interested in developing this into something more broadly useful.
-See [todo.txt](https://github.com/danieldevine/porkfolio/todo.tx) for a blithe underestimation of what needs to be done.
+See [todo.txt](https://github.com/danieldevine/porkfolio/blob/master/todo.txt) for a blithe underestimation of what needs to be done.
 
 ##Build
 Build with Grunt and Sass.
@@ -39,4 +39,4 @@ this theme is in development, with a very long TODO list.
 This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a way that wouldn't be practical for a client to maintain (but is easier for me).
 
 ##Licence
-Released under [GPL v3.0](https://github.com/danieldevine/LICENSE.md)
+Released under [GPL v3.0](https://github.com/danieldevine/porkfolio/blob/master/LICENSE.md)
