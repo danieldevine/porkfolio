@@ -15,7 +15,7 @@ For more info on how:
 
 [Learn Sass](http://sass-lang.com/guide)
 
-###Dependencies
+###Plug In Dependencies
 Needs Gravity forms, ACF v4 and the ACF gallery plug in at the moment.
 
 ##Credit
@@ -33,10 +33,11 @@ This theme makes use of:
 
 
 ##Warning
+If you install this theme on your WP site, there's a very strong chance that your site, your hard drive and you will wake up in a field hundreds of miles away with no pants. You have been warned.
 This WordPress theme doesn't support blogging....yes I know.
 I doubt this will be of much use to anyone else in its current state.
 this theme is in development, with a very long TODO list.
-This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a way that wouldn't be practical for a client to maintain (but is easier for me).
+This is not intended or recommended for use on client websites as a lot of the content is meshed with the theme in a client unfriendly way.
 
 ##Licence
 Released under [GPL v3.0](https://github.com/danieldevine/porkfolio/blob/master/LICENSE.md)
