@@ -9,7 +9,7 @@
   */
   get_header();?>
 
-<?php get_template_part('inc/nav'); ?>
+<?php get_template_part('inc/PFO_main-nav'); ?>
 <div id="statics"><!--full screen, no sliding-->
 
   <div id="logo2"><!--  this is the logo at weenie sizes-->

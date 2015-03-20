@@ -9,6 +9,6 @@
  */
 get_header(); ?>
 
-<?php get_template_part('inc/nav'); ?>
-<?php get_template_part('inc/slides'); ?>
+<?php get_template_part('inc/PFO_main-nav'); ?>
+<?php get_template_part('inc/PFO_slides'); ?>
 <?php get_footer(); ?>

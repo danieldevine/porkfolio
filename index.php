@@ -11,8 +11,8 @@
   *
   */
   get_header();?>
-  
-<?php get_template_part('inc/nav'); ?>
+
+<?php get_template_part('inc/PFO_main-nav'); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'content'); ?>

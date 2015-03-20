@@ -25,14 +25,14 @@
           <div class="col span_9_of_12">
             <div class="experience">
             <div class="cv-title">EXPERIENCE</div>
-    <?php get_template_part( 'inc/experience' ); ?>
+    <?php get_template_part( 'inc/PFO_cv-experience' ); ?>
             </div>
           </div>
 
           <div class="col span_3_of_12">
             <div class="skills">
              <div class="cv-title">SKILLS</div>
-              <?php get_template_part( 'inc/skills' ); ?>
+              <?php get_template_part( 'inc/PFO_cv-skills' ); ?>
             </div>
           </div>
 

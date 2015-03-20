@@ -1,11 +1,13 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    experience.php
+  * @file         :    PFO_cv-experience.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/inc/functions/experience.php
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_cv-experience.php
+  *
+  *Loop that displays all our experiences and experience meta fields on our CV
   *
   */
 ?>

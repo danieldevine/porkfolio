@@ -1,4 +1,18 @@
- <?php $images = get_field('galleries'); ?>
+<?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    PFO_portfolio-gallery.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_portfolio-gallery.php
+  *
+  *displays our galleries on each portfolio page
+  *
+  */
+?>
+
+<?php $images = get_field('galleries'); ?>
 
 <?php if($images): ?>
     <div class="popup-gallery ">

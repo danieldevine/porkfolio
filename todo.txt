@@ -6,7 +6,8 @@
 # PHP IMPROVEMENTISATION
 - user options page
 - Seperate CV from rest of site
-- namespace includes
++ namespace includes
+- use loop for slides instead of calling specific page IDs
 
 # MINIMISE DEPENDENCIES (IFICATION)
 

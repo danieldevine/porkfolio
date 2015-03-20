@@ -26,7 +26,7 @@
        <div class="flex-friend"><!--  absolute center the contents of the 'slide'.-->
         <div class="gallery-wrapper"><!--  wrapper specific to gallery holding pages -->
 
-        <?php get_template_part('inc/porkfolio-gallery'); ?>
+        <?php get_template_part('inc/PFO_portfolio-gallery'); ?>
         <h1><?php the_title(); ?></h1>
 
         <div class="gallery-pholder">

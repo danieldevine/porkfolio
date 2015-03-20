@@ -16,7 +16,7 @@
   <div class="container scrollable">
 
     <div class="portfolio-wrapper">
-      <?php get_template_part( 'inc/portfolios'); ?>
+      <?php get_template_part( 'inc/PFO_portfolios'); ?>
     </div>
 
   </div>
