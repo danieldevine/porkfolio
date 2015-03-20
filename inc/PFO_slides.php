@@ -8,118 +8,65 @@
 
 
   <!--/////////////////////////////////////// hi slide 1 :) ///////////////////////////////////////////-->
-
-
   <li>
 
-<?php $args=array( 'post_type'=>'slide', 'page_id'=>'29'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
+  <?php $args=array( 'posts_per_page'=>'1', 'post_type'=>'slide'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
-<?php the_post_thumbnail('massivenail'); ?>
+  <?php get_template_part( 'content', 'slide'); ?>
 
-  <div class="container scrollable">
-   <div class="flex-friend">
-    <div class="mainwrapper">
-      <h1><?php the_title(); ?></h1>
-      <div class="pholder"><?php the_content(); ?></div>
-    </div>
-   </div>
-  </div>
-
-      <?php endwhile; else: ?>I'm afraid that there are no posts.
-      <?php endif; ?>
+  <?php endwhile; else: ?>I'm afraid that there are no posts.
+  <?php endif; ?>
 
   </li>
-
   <!--/////////////////////////////////////// bye slide 1 :( ///////////////////////////////////////////-->
 
+
+
   <!--/////////////////////////////////////// hi slide 2 :) ///////////////////////////////////////////-->
-
-
   <li>
 
-            <?php $args=array( 'post_type'=>'slide', 'page_id'=>'31'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
+  <?php $args=array( 'posts_per_page'=>'1', 'post_type'=>'slide','offset' =>'1'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
-         <?php the_post_thumbnail('massivenail'); ?>
+  <?php get_template_part( 'content', 'slide'); ?>
 
-        <div class="container scrollable">
-         <div class="flex-friend">
-          <div class="mainwrapper">
-            <h1><?php the_title(); ?></h1>
-            <div class="pholder"><?php the_content(); ?></div>
-          </div>
-         </div>
-        </div>
-
-      <?php endwhile; else: ?>I'm afraid that there are no posts.
-      <?php endif; ?>
+  <?php endwhile; else: ?>I'm afraid that there are no posts.
+  <?php endif; ?>
 
   </li>
-
   <!--/////////////////////////////////////// bye slide 2 :( ///////////////////////////////////////////-->
+
+
 
   <!--/////////////////////////////////////// hi slide 3 :) ///////////////////////////////////////////-->
 
-    <?php get_template_part ('inc/PFO_portfolio-slide'); ?>
+  <?php get_template_part ('inc/PFO_portfolio-slide'); ?>
 
   <!--/////////////////////////////////////// bye slide 3 :( ///////////////////////////////////////////-->
 
+
+
   <!--/////////////////////////////////////// hi slide 4 :) ///////////////////////////////////////////-->
 
-
-  <li>
-
-            <?php $args=array( 'post_type'=>'slide', 'page_id'=>'34'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
-
-        <?php the_post_thumbnail('massivenail'); ?>
-
-        <div class="container scrollable">
-         <div class="flex-friend">
-          <div class="mainwrapper">
-            <h1><?php the_title(); ?></h1>
-            <div class="pholder"><?php the_content(); ?>
-            </div>
-          </div>
-         </div>
-        </div>
-
-      <?php endwhile; else: ?>I'm afraid that there are no posts.
-      <?php endif; ?>
-
-  </li>
+  <?php get_template_part ('inc/PFO_cv'); ?>
 
   <!--/////////////////////////////////////// bye slide 4 :( ///////////////////////////////////////////-->
 
+
+
   <!--/////////////////////////////////////// hi slide 5 :) ///////////////////////////////////////////-->
-
-
-<?php get_template_part ('inc/PFO_cv'); ?>
-
-  <!--/////////////////////////////////////// bye slide 5 :( ///////////////////////////////////////////-->
-
-  <!--/////////////////////////////////////// hi slide 6 :) ///////////////////////////////////////////-->
-
-
   <li>
 
-            <?php $args=array( 'post_type'=>'slide', 'page_id'=>'36'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
+  <?php $args=array( 'posts_per_page'=>'1', 'post_type'=>'slide','offset' =>'2'); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
-   <?php the_post_thumbnail('massivenail'); ?>
+  <?php get_template_part( 'content', 'slide'); ?>
 
-        <div class="container scrollable">
-          <div class="flex-friend">
-          <div class="mainwrapper">
-            <h1><?php the_title(); ?></h1>
-            <div class="pholder"><?php the_content(); ?></div>
-          </div>
-         </div>
-        </div>
-
-      <?php endwhile; else: ?>I'm afraid that there are no posts.
-      <?php endif; ?>
+  <?php endwhile; else: ?>I'm afraid that there are no posts.
+  <?php endif; ?>
 
   </li>
+  <!--/////////////////////////////////////// bye slide 5 :( ///////////////////////////////////////////-->
 
-  <!--/////////////////////////////////////// bye slide 6 :( ///////////////////////////////////////////-->
+
 
   </ul>
 
