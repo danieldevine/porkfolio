@@ -1,6 +1,6 @@
 #Porkfolio
 
-<img align="right" height="210"  src="https://github.com/danieldevine/porkfolio/blob/master/screenshot.jpg?raw=true">
+<img align="right" height="180"  src="https://github.com/danieldevine/porkfolio/blob/master/porkus.png?raw=true">
 
 
 This is just a side-scrolling full page slide WordPress theme, using superslides.js
