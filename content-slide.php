@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    content-portfolio.php
+  * @file         :    content-slide.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/content-portfolio.php
+  * @filesource   :    wp-content/themes/porkfolio/content-slide.php
   *
   *this is the content for the individual slides.
   *

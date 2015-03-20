@@ -1,11 +1,11 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    PFO_enqueue-stuff.php
+  * @file         :    PFO_remove-posts.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_enqueue-stuff.php
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_remove-posts.php
   *
   * Remove 'posts' from the dashboard as we don't have any use for posts in this theme.
   *
