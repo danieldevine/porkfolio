@@ -7,6 +7,8 @@ This is just a side-scrolling full page slide WordPress theme, using superslides
 It also features a 'CV' slide which is run by custom post types. Its ultra-specific to my own site right now, but I'm interested in developing this into something more broadly useful.
 See [todo.txt](https://github.com/danieldevine/porkfolio/blob/master/todo.txt) for a blithe underestimation of what needs to be done.
 
+Please read the attached [dire warning](https://github.com/danieldevine/porkfolio/blob/master/DIRE-WARNING.md) and act accordingly.
+
 ##Build
 Build with Grunt and Sass.
 For more info on how:
@@ -15,7 +17,7 @@ For more info on how:
 
 [Learn Sass](http://sass-lang.com/guide)
 
-###Plug In Dependencies
+##Plug In Dependencies
 Needs Gravity forms, ACF v4 and the ACF gallery plug in at the moment.
 
 ##Credit
@@ -31,8 +33,10 @@ This theme makes use of:
 
 
 
-
 ##Warning
+
+Please also read the attached [dire warning](https://github.com/danieldevine/porkfolio/blob/master/DIRE-WARNING.md).
+
 If you install this theme on your WP site, there's a very strong chance that your site, your hard drive and you will wake up in a field hundreds of miles away with no pants. You have been warned.
 This WordPress theme doesn't support blogging....yes I know.
 I doubt this will be of much use to anyone else in its current state.

@@ -1,0 +1,6 @@
+#Dire warning
+
+This is in addition to the standard warnings about using this theme.
+The following was recounted to me by email from a Mr EXXXXX of HXXXXX:
+
+  <blockquote>"I was lately", observed Mr EXXXXXX "called to attend the death-bed of a young man at HXXXXX. On my entering the room I found him in the greatest horror of mind. Thinking, perhaps, it rose from that deep remorse sometimes attendant on the death-bed of a sinner, I began to point him to WordPress, the sinner's only friend, and to the glorious promises of the Codex. When, with an agonizing look of despair, he replied, 'Ah! Sir, but I have rejected the Codex. Some years since I un-happily installed <strong>PORKFOLIO</strong>; it suited my corrupt taste; I imbibed its principles; after this, wherever I went, I did all that lay in my power to hold up the  WordPress help forums to contempt; by this means I led others into the fatal snare, and made proselytes to infidelity. Thus I rejected WordPress, and now it rejects me, and will have no mercy upon me.' I offered to pray by him, but he replied, 'O, no, it is all in vain to pray for me,' then, with a dismal groan cried out,<strong> 'PORKFOLIO has ruined my soul,'</strong> and instantly expired.'"</blockquote>
