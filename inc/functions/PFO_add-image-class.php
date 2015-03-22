@@ -8,7 +8,7 @@
   * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_add-image-class.php
   *
   * This adds the 'preserve' class to WordPress post images, stopping them from inflating to fill the slide.
-  * You can alter the name of  * the preserve class in superslides.js and superstatics.js
+  * You can alter the name of the preserve class in superslides.js and superstatics.js
   * NOTE: does not work on existing images, newly added images only.
   *
   */

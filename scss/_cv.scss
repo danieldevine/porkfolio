@@ -51,6 +51,12 @@
   padding-right: 35px
 }
 
+@media screen and (max-width: 985px) {
+  .experience {
+    padding-right: 0;
+  }
+}
+
 .skills {
   padding: 0 0 0 2em;
   border-left:1px solid $thirdcolor;

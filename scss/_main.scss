@@ -43,7 +43,7 @@
   text-align: left;
   margin: 5px auto;
   padding: 0px 5% 0px 0px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -179,4 +179,20 @@ input.button {
 input.button:hover {
   cursor: pointer;
   background: rgba(32, 20, 98, 0.81);
+}
+
+.top-screen {
+  height: 200px;
+  width:98%;
+  @include fade-color;
+  z-index: 399;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 985px) {
+  .top-screen {
+    display: none;
+  }
 }

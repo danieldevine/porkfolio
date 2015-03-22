@@ -11,6 +11,7 @@
   */
 ?>
 <div id="slides">
+  <div class="top-screen"></div>
 
   <div id="logo2">
     <img src="<?php echo get_bloginfo('template_directory');?>/img/build/logo2.png">
