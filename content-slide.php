@@ -17,6 +17,13 @@
 <div class="container scrollable">
   <div class="flex-friend">
     <div class="mainwrapper">
+
+     <?php $image = get_field('lead_image'); if( !empty($image) ): ?>
+     <div class="lead-image">
+<img class="preserve" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+      </div>
+       <?php endif; ?>
+
       <h1><?php the_title(); ?></h1>
       <div class="pholder"><?php the_content(); ?></div>
     </div>

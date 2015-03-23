@@ -3,7 +3,7 @@
 <img align="right" height="180"  src="https://github.com/danieldevine/porkfolio/blob/master/porkus.png?raw=true">
 
 
-This is just a side-scrolling full page slide WordPress theme, using superslides.js
+This is just a full screen slide based WordPress theme, using superslides.js
 It also features a 'CV' slide which is run by custom post types. Its ultra-specific to my own site right now, but I'm interested in developing this into something more broadly useful.
 See [todo.txt](https://github.com/danieldevine/porkfolio/blob/master/todo.txt) for a blithe underestimation of what needs to be done.
 
