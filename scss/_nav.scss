@@ -113,6 +113,11 @@ screen and (min-resolution: 2dppx) {
 }
 /*==========list of contact details after the menu.==========*/
 
+.contact-details-wrap {
+  margin:0 auto;
+  display:block;
+}
+
 #contact-details {
   margin-top: 40px;
   text-align: left;
@@ -142,4 +147,16 @@ screen and (min-resolution: 2dppx) {
   font-size: 13px;
   padding: 0;
   margin: 0;
+}
+
+#social-nav {
+  margin-top:1em;
+  li {
+    display:inline;
+  }
+  a{
+    display:inline;
+    margin:0 3px;
+    font-size:24px;
+  }
 }

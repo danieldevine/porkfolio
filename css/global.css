@@ -603,7 +603,7 @@ blockquote:after {
 
 .pholder p {
   line-height: 23px;
-  text-align: left;
+  text-align: justify;
   margin: 5px auto;
   padding: 0px 5% 0px 0px;
   font-size: 15px;
@@ -1003,6 +1003,10 @@ footer {
     width: auto;
     left: 18em; } }
 /*==========list of contact details after the menu.==========*/
+.contact-details-wrap {
+  margin: 0 auto;
+  display: block; }
+
 #contact-details {
   margin-top: 40px;
   text-align: left;
@@ -1026,6 +1030,15 @@ footer {
   font-size: 13px;
   padding: 0;
   margin: 0; }
+
+#social-nav {
+  margin-top: 1em; }
+  #social-nav li {
+    display: inline; }
+  #social-nav a {
+    display: inline;
+    margin: 0 3px;
+    font-size: 24px; }
 
 #statics {
   position: relative; }
@@ -1648,7 +1661,7 @@ a.lightbox-link:hover {
   margin: 0 auto;
   position: absolute;
   z-index: 3;
-  bottom: 37px;
+  bottom: 33px;
   width: 100%;
   z-index: 20; }
 
@@ -1662,7 +1675,7 @@ a.lightbox-link:hover {
 
 .slides-navigation a.prev:before {
   font-family: FontAwesome;
-  content: "\f060";
+  content: "\f053";
   padding-right: 10px; }
 
 .slides-navigation a.next {
@@ -1670,7 +1683,7 @@ a.lightbox-link:hover {
 
 .slides-navigation a.next:after {
   font-family: FontAwesome;
-  content: "\f061";
+  content: "\f054";
   padding-left: 10px; }
 
 .slides-pagination {

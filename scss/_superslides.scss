@@ -23,7 +23,7 @@
     margin: 0 auto;
     position: absolute;
     z-index: 3;
-    bottom: 37px;
+    bottom: 33px;
     width: 100%;
     z-index: 20;
 }
@@ -37,16 +37,16 @@
 }
 .slides-navigation a.prev:before {
   font-family: FontAwesome;
-  content:"\f060";
-      padding-right:10px;
+  content:"\f053";
+  padding-right:10px;
 }
 .slides-navigation a.next {
   right: 10px;
 }
 .slides-navigation a.next:after {
-font-family: FontAwesome;
-  content:"\f061";
-      padding-left:10px;
+  font-family: FontAwesome;
+  content:"\f054";
+  padding-left:10px;
 }
 
 .slides-pagination {
