@@ -636,7 +636,7 @@ blockquote:after {
   margin: 0 auto;
   padding: 15px 0;
   background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
-  box-shadow: 10px 0px 10px  #fff; }
+  box-shadow: 0 40px 80px  #fff; }
   #logo2 img {
     width: 120px; }
 
