@@ -43,7 +43,7 @@
   text-align: justify;
   margin: 5px auto;
   padding: 0px 5% 0px 0px;
-  font-size: 14 cpx;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -52,6 +52,12 @@
     /* flex-direction: column-reverse;
       align-items: none;*/
   }
+}
+.logo i {
+  font-size: 40px;
+  font-weight: normal;
+  padding: 0 5px;
+  margin: 0 auto 10px;
 }
 
 @media screen and (max-width: 985px) {

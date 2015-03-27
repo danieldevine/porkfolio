@@ -611,13 +611,19 @@ blockquote:after {
   text-align: justify;
   margin: 5px auto;
   padding: 0px 5% 0px 0px;
-  font-size: 14 cpx;
+  font-size: 14px;
   font-weight: 300; }
 
 @media screen and (max-width: 600px) {
   .pholder {
     /* flex-direction: column-reverse;
       align-items: none;*/ } }
+.logo i {
+  font-size: 40px;
+  font-weight: normal;
+  padding: 0 5px;
+  margin: 0 auto 10px; }
+
 @media screen and (max-width: 985px) {
   .logo {
     display: none; } }
@@ -1009,7 +1015,7 @@ footer {
     top: 0;
     left: 0; }
 
-  .nav-toggle:before:active {
+  .nav-toggle.active:before {
     color: rgba(255, 253, 253, 0.94);
     background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
     font-family: "fontawesome", sans-serif;
@@ -1019,7 +1025,7 @@ footer {
     font-size: 28px;
     text-transform: none;
     position: absolute;
-    content: "X";
+    content: "\f00d";
     text-indent: 0;
     text-align: center;
     line-height: 77px;

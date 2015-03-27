@@ -2,6 +2,7 @@
 
   <div class="logo">
     <h1 class="multiline-title">
+         <i class="fa fa-tablet fa-1x"></i><i class="fa fa-desktop fa-1x"></i><i class="fa fa-mobile fa-1x"></i><br />
           DANIEL<br />DEVINE
       </h1>
   </div>
