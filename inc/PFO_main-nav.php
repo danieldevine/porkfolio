@@ -6,17 +6,17 @@
       </h1>
   </div>
 
-  <ul>
+  <ul class="main-nav">
 
-    <li><a href="/#1">Home</a></li>
+    <li><a href="/#1"> <i class="fa fa-home fa-1x"></i>&nbsp; Home</a></li>
 
-    <li><a href="/#2">About Daniel</a></li>
+    <li><a href="/#2"> <i class="fa fa-user fa-1x"></i>&nbsp; About Me</a></li>
 
-    <li><a href="/#3">Portfolio</a> </li>
+    <li><a href="/#3"> <i class="fa fa-briefcase fa-1x"></i>&nbsp; Portfolio</a> </li>
 
-    <li><a href="/#4">CV</a></li>
+    <li><a href="/#4"> <i class="fa fa-file-text fa-1x"></i>&nbsp; CV</a></li>
 
-    <li><a href="/#5">Contact Me</a></li>
+    <li><a href="/#5"> <i class="fa fa-signal fa-1x"></i>&nbsp; Contact Me</a></li>
 
     <li>
       <div class="contact-details-wrap">
@@ -33,7 +33,7 @@
         <li><a href="https://github.com/danieldevine" target="blank">      <i class="fa fa-github-alt fa-1x"></i>  </a> </li>
         <li><a href="https://twitter.com/blackroaddesign" target="blank">  <i class="fa fa-twitter fa-1x"></i> </a> </li>
         <li><a href="https://facebook.com/blackroaddesign" target="blank"> <i class="fa fa-facebook-square fa-1x"></i> </a> </li>
-        <li><a href="https://twitter.com/blackroaddesign" target="blank">  <i class="fa fa-bitbucket fa-1x"></i> </a> </li>
+        <li><a href="http://blackroad.ie" target="blank">                  <i class="fa fa-road fa-1x"></i> </a> </li>
       </ul>
     </li>
 

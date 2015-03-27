@@ -388,6 +388,14 @@ img.mfp-img {
   display: inline-block;
 }
 
+  @media screen and (max-width: 985px) {
+    .image-wrap {
+    width: 100%;/* Change this value to have your thumbnails laid out differently */
+    margin-bottom: 0;
+  }
+
+}
+
 .image-wrap img {
   width: 100%;
 }

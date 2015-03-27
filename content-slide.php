@@ -17,7 +17,6 @@
 <div class="container scrollable">
   <div class="flex-friend">
     <div class="mainwrapper">
-
      <?php $image = get_field('lead_image'); if( !empty($image) ): ?>
      <div class="lead-image">
 <img class="preserve" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />

@@ -1,7 +1,7 @@
 # CSS ENFIXENING
-- check max width
-- adjust gallery item width
-- h1 padding
++ check max width
++ adjust gallery item width
++ h1 padding
 
 # PHP IMPROVEMENTISATION
 - user options page

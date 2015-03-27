@@ -4,33 +4,33 @@
   position: fixed !important;
   width: 20%;
   min-height: 100%;
-  background: #fff;
+  background: $thirdcolor $texture;
+  color: $maincolor;
   margin: 0;
   padding: 0;
   z-index: 5;
-  left: 20px;
+  left: 0px;
   top: 0;
-}
-
-#nave ul {
-  padding: 0 10%;
-}
-
-#nave li {
-  width: 100%;
-  display: block;
-}
-
-#nave a {
-  display: block;
-  font-size: 14px;
-  text-transform: uppercase;
-  line-height: 30px;
-  border-bottom: 1px dotted $maincolor;
+  ul {
+    padding: 0 10%;
+  }
+  li {
+    width: 100%;
+    display: block;
+  }
+  a {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 30px;
+    border-bottom: 1px dotted $secondcolor;
+    text-align: left;
+    color: $secondcolor;
+  }
 }
 
 #nave a:hover {
-  color: $thirdcolor;
+  color: $thirdtint;
 }
 
 #nave li:first-child a {
@@ -53,54 +53,78 @@
     display: block;
     overflow: hidden;
   }
+
   #nave {
     top: 0;
     width: 100%;
     position: relative !important;
     left: 0px;
   }
+
   #nave.opened {
     max-height: 9999px
   }
+
   #nave a:hover {
     background: transparent
   }
+
   #nave .active a:hover {
     background: $thirdcolor;
   }
+
   .nav-toggle {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     display: block;
     width: 70px;
     height: 70px;
     text-indent: -9999px;
     overflow: hidden;
-    background: #fff url("../img/build/hamburger.gif") no-repeat 50% 33%;
     position: absolute;
     top: -8px;
     right: 0;
     z-index: 500;
   }
-}
 
-@media screen and (-webkit-min-device-pixel-ratio: 1.3),
-screen and (min--moz-device-pixel-ratio: 1.3),
-screen and (-o-min-device-pixel-ratio: 2 / 1),
-screen and (min-device-pixel-ratio: 1.3),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-  #nav-toggle {
-    background-image: url("../img/build/hamburger-retina.gif");
-    -webkit-background-size: 100px 100px;
-    -moz-background-size: 100px 100px;
-    -o-background-size: 100px 100px;
-    background-size: 100px 100px;
+ .nav-toggle:before  {
+    color:$secondcolor;
+    background:$thirdcolor $texture;
+    font-family: "fontawesome", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 28px;
+    text-transform: none;
+    position: absolute;
+    content:  "\f0c9";
+    text-indent: 0;
+    text-align: center;
+    line-height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+   .nav-toggle:before:active  {
+    color:$secondcolor;
+    background:$thirdcolor $texture;
+    font-family: "fontawesome", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 28px;
+    text-transform: none;
+    position: absolute;
+    content:  "X";
+    text-indent: 0;
+    text-align: center;
+    line-height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;
   }
 }
+
+
 
 @media screen and (min-width: 76em) {
   #nave {
@@ -114,21 +138,15 @@ screen and (min-resolution: 2dppx) {
 /*==========list of contact details after the menu.==========*/
 
 .contact-details-wrap {
-  margin:0 auto;
-  display:block;
+  margin: 0 auto;
+  display: block;
 }
 
 #contact-details {
-  margin-top: 40px;
+  margin-top: 20px;
   text-align: left;
   padding-left: 22px;
   text-indent: -10px;
-}
-
-@media screen and (max-width: 985px) {
-  #contact-details {
-    text-align: center;
-  }
 }
 
 #contact-details li {
@@ -150,13 +168,20 @@ screen and (min-resolution: 2dppx) {
 }
 
 #social-nav {
-  margin-top:1em;
+  margin-top: 1em;
+  text-align: left;
   li {
-    display:inline;
+    display: inline;
   }
-  a{
-    display:inline;
-    margin:0 3px;
-    font-size:24px;
+  a {
+    display: inline;
+    margin: 0 3px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  #contact-details, #social-nav {
+    display:none;
   }
 }
