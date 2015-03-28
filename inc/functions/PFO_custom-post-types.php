@@ -127,7 +127,7 @@ function pfo_skills() {
         'description'   => 'Holds our skills and skill specific data',
         'public'        => true,
         'menu_position' => 8,
-        'menu_icon'     => 'dashicons-welcome-learn-more',
+        'menu_icon'     => 'dashicons-awards',
         'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
         'has_archive'   => true,
         // Set the available taxonomies here
@@ -136,6 +136,37 @@ function pfo_skills() {
     register_post_type( 'skill', $args );
 }
 add_action( 'init', 'pfo_skills' );
+
+function pfo_education() {
+    $labels = array(
+        'name'               => _x( 'education', 'post type general name' ),
+        'singular_name'      => _x( 'education', 'post type singular name' ),
+        'add_new'            => _x( 'Add New', 'book' ),
+        'add_new_item'       => __( 'Add New education' ),
+        'edit_item'          => __( 'Edit education' ),
+        'new_item'           => __( 'New education' ),
+        'all_items'          => __( 'All education' ),
+        'view_item'          => __( 'View education' ),
+        'search_items'       => __( 'Search education' ),
+        'not_found'          => __( 'No education found' ),
+        'not_found_in_trash' => __( 'No education found in the Trash' ),
+        'parent_item_colon'  => '',
+        'menu_name'          => 'Education'
+    );
+    $args = array(
+        'labels'        => $labels,
+        'description'   => 'Holds our education and education specific data',
+        'public'        => true,
+        'menu_position' => 9,
+        'menu_icon'     => 'dashicons-welcome-learn-more',
+        'supports'      => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+        'has_archive'   => true,
+        // Set the available taxonomies here
+        'taxonomies' => array('category', 'post_tag')
+    );
+    register_post_type( 'education', $args );
+}
+add_action( 'init', 'pfo_education' );
 
 
 //add custom post types to reg categories

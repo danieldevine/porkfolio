@@ -1,43 +1,27 @@
-<ul>
- <div class="highlight">LANGUAGES</div>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>JavaScript</li>
-  <li>PHP</li>
-</ul>
 
+<?php $args=array(
+          'post_type'=>'skill'
+);
 
-<ul>
- <div class="highlight">LIBRARIES</div>
-  <li>jQuery</li>
-</ul>
+$category_posts = new WP_Query($args);
 
+if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
 <ul>
- <div class="highlight">CMS</div>
-  <li>WordPress</li>
-  <li>ModX</li>
+
+ <div class="highlight"><?php the_title(); ?></div>
+
+  <li><?php the_field('skillage_one');?></li>
+  <li><?php the_field('skillage_two');?></li>
+  <li><?php the_field('skillage_three');?></li>
+  <li><?php the_field('skillage_four');?></li>
+  <li><?php the_field('skillage_five');?></li>
+  <li><?php the_field('skillage_six');?></li>
+  <li><?php the_field('skillage_seven');?></li>
+
 </ul>
 
-
-<ul>
- <div class="highlight">TOOLS</div>
-  <li>Sass</li>
-  <li>Grunt</li>
-  <li>Gulp</li>
-  <li>Emmet</li>
-  <li>Bower</li>
-  <li>Git</li>
-</ul>
-
-
-<ul>
- <div class="highlight">APPLICATIONS</div>
-  <li>Adobe Photoshop</li>
-  <li>Adobe Illustrator</li>
-  <li>Adobe InDesign</li>
-  <li>Adobe Flash</li>
-</ul>
-
+<?php endwhile; else: ?>I'm afraid that there are no posts.
+<?php endif; ?>
 
 
