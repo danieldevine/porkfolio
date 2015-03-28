@@ -89,6 +89,7 @@
   padding: 10px;
   margin-bottom: 50px; //linked to footer height
   color: #fff;
+  
   a {
     color: #fff;
     text-transform: uppercase;
@@ -102,12 +103,12 @@
   position: relative;
   margin-left: 23%;
   color: $maincolor;
-}
 
-.gallery-wrapper h1 {
-  text-transform: uppercase;
-  padding: 10px 0 0 0;
-  margin: 0;
+    h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0;
+    }
 }
 
 @media screen and (max-width: 985px) {
@@ -144,12 +145,12 @@
   margin-left: 25%;
   margin-top: 10px;
   color: $maincolor;
-}
 
-.portfolio-wrapper h1 {
-  text-transform: uppercase;
-  padding: 10px 0 0 0;
-  margin: 0;
+    h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0;
+    }
 }
 
 @media screen and (max-width: 985px) {

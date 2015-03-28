@@ -656,11 +656,10 @@ blockquote:after {
   position: relative;
   margin-left: 23%;
   color: rgba(28, 28, 33, 0.94); }
-
-.gallery-wrapper h1 {
-  text-transform: uppercase;
-  padding: 10px 0 0 0;
-  margin: 0; }
+  .gallery-wrapper h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0; }
 
 @media screen and (max-width: 985px) {
   .gallery-wrapper {
@@ -688,11 +687,10 @@ blockquote:after {
   margin-left: 25%;
   margin-top: 10px;
   color: rgba(28, 28, 33, 0.94); }
-
-.portfolio-wrapper h1 {
-  text-transform: uppercase;
-  padding: 10px 0 0 0;
-  margin: 0; }
+  .portfolio-wrapper h1 {
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin: 0; }
 
 @media screen and (max-width: 985px) {
   .portfolio-wrapper {
