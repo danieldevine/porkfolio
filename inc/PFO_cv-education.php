@@ -1,18 +1,18 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    PFO_cv-experience.php
+  * @file         :    PFO_cv-education.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
-  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_cv-experience.php
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_cv-education.php
   *
-  *Loop that displays all our experiences and experience meta fields on our CV
+  *Loop that displays all our education junk on our CV
   *
   */
 ?>
 
-<?php $args=array( 'post_type'=>'experience' ); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
+<?php $args=array( 'post_type'=>'education' ); $category_posts = new WP_Query($args); if($category_posts->have_posts()) : while($category_posts->have_posts()) : $category_posts->the_post(); ?>
 
 <div class="experience"><?php the_field('dates'); ?><br />
 <h3><strong><?php the_field('location'); ?></strong> &nbsp; <?php the_field('location2'); ?></h3>

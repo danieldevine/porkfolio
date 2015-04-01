@@ -588,9 +588,9 @@ blockquote:after {
 .mainwrapper {
   max-width: 71.5%;
   position: relative;
-  margin-left: 23%;
+  margin-left: 21.5%;
   color: rgba(28, 28, 33, 0.94);
-  background: rgba(255, 253, 253, 0.94) url("../img/build/14.png"); }
+  background: rgba(255, 253, 253, 0.94); }
 
 .mainwrapper h1 {
   text-transform: uppercase;
@@ -746,6 +746,9 @@ input.button:hover {
 @media screen and (min-width: 985px) {
   .top-screen {
     display: none; } }
+.emph {
+  color: rgba(30, 148, 30, 0.85); }
+
 /*========== Styling for the CV section ==========*/
 .cv {
   text-align: left;
@@ -783,7 +786,7 @@ input.button:hover {
   .cv-wrapper {
     max-width: 100%;
     margin: 0 auto 500px;
-    top: 250px; } }
+    top: 100px; } }
 .experience {
   padding-bottom: 30px;
   padding-right: 35px; }
@@ -1205,7 +1208,7 @@ footer {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: none repeat scroll 0% 0% #0c340c;
+  background: none repeat scroll 0% 0% rgba(30, 148, 30, 0.85);
   opacity: 0;
   transition: all 1s ease;
   border-radius: 200px;

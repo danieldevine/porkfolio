@@ -26,7 +26,10 @@
             <div class="experience">
             <div class="cv-title">EXPERIENCE</div>
     <?php get_template_part( 'inc/PFO_cv-experience' ); ?>
+            <div class="cv-title">EDUCATION</div>
+    <?php get_template_part( 'inc/PFO_cv-education' ); ?>
             </div>
+
           </div>
 
           <div class="col span_3_of_12">

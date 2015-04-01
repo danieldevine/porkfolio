@@ -1,5 +1,17 @@
+<?php
+  /**
+  * @Theme Name   :    porkfolio
+  * @file         :    PFO_cv-skills.php
+  * @package      :    porkfolio
+  * @author       :    Dan Devine
+  * @license      :    GPLv3
+  * @filesource   :    wp-content/themes/porkfolio/inc/functions/PFO_cv-skills.php
+  *
+  *Loop that displays all our amazing skills
+  *
+  */
 
-<?php $args=array(
+ $args=array(
           'post_type'=>'skill'
 );
 

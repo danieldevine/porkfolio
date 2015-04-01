@@ -14,9 +14,9 @@
 .mainwrapper {
   max-width: 71.5%;
   position: relative;
-  margin-left: 23%;
+  margin-left: 21.5%;
   color: $maincolor;
-  background: $secondcolor $texture;
+  background: $secondcolor;
 }
 
 .mainwrapper h1 {
@@ -89,7 +89,7 @@
   padding: 10px;
   margin-bottom: 50px; //linked to footer height
   color: #fff;
-  
+
   a {
     color: #fff;
     text-transform: uppercase;
@@ -203,4 +203,8 @@ input.button:hover {
   .top-screen {
     display: none;
   }
+}
+
+.emph {
+  color:$thirdcolor;
 }
