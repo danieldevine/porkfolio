@@ -1,7 +1,7 @@
 <?php
   /**
   * @Theme Name   :    porkfolio
-  * @file         :    PFO_eregister-menus.php
+  * @file         :    PFO_reegister-menus.php
   * @package      :    porkfolio
   * @author       :    Dan Devine
   * @license      :    GPLv3
