@@ -22,7 +22,7 @@
        <?php endif; ?>
   <div class="flex-friend">
     <div class="mainwrapper">
-      <h1><?php  get_option( 'PFO_settings[PFO_text_field_1]' ); ?></h1>
+      <h1><?php the_title(); ?></h1>
       <div class="pholder"><?php the_content(); ?></div>
     </div>
   </div>

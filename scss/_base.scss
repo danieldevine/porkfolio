@@ -12,7 +12,7 @@ body {
   min-height: 500px;
   width: 100%;
   color: #333;
-  font-family: sans-serif;
+  font-family: $main-face;
   background: $secondcolor $texture;
   text-align: center;
   overflow: hidden;
@@ -46,12 +46,15 @@ strong {
 h2,
 h3,
 h4 {
+  font-family:$light-face;
   font-style: normal;
   font-weight: 100;
   margin: 0;
+
 }
 
 h1 {
+  font-family:$hair-face;
   font-style: normal;
   font-weight: 100;
   margin: 0;
