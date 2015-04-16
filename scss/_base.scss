@@ -58,6 +58,7 @@ h1 {
   font-style: normal;
   font-weight: 100;
   margin: 0;
+  color:$thirdcolor;
 }
 
 .multiline-title {
@@ -70,8 +71,9 @@ h1 {
 /*==========quotes==========*/
 
 blockquote {
-  margin:0 auto;
-  font-size:15px;
+  margin: 10px 0 10px 2%;
+  font-size: 14px;
+  text-align: justify;
 }
 
 blockquote:before {
@@ -83,6 +85,7 @@ blockquote:before {
   margin-left: -15px;
   margin-right: 5px;
   font-weight: 900;
+  font-family:$light-face;
 }
 
 blockquote:after {
@@ -94,5 +97,6 @@ blockquote:after {
   margin-right: -15px;
   margin-left: 5px;
   font-weight: 900;
+  font-family:$light-face;
 }
 

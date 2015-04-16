@@ -24,17 +24,16 @@
 
           <div class="col span_9_of_12">
             <div class="experience">
-            <div class="cv-title">EXPERIENCE</div>
-    <?php get_template_part( 'inc/PFO_cv-experience' ); ?>
-            <div class="cv-title">EDUCATION</div>
-    <?php get_template_part( 'inc/PFO_cv-education' ); ?>
+            <div class="cv-title"><i class="fa fa-paperclip fa-0.5x"></i> EXPERIENCE</div>
+             <?php get_template_part( 'inc/PFO_cv-experience' ); ?>
+            <div class="cv-title"> <i class="fa fa-mortar-board fa-1x"></i> EDUCATION</div>
+             <?php get_template_part( 'inc/PFO_cv-education' ); ?>
             </div>
-
           </div>
 
           <div class="col span_3_of_12">
             <div class="skills">
-             <div class="cv-title">SKILLS</div>
+             <div class="cv-title"><i class="fa fa-files-o fa-1x"></i> SKILLS</div>
               <?php get_template_part( 'inc/PFO_cv-skills' ); ?>
             </div>
           </div>

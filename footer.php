@@ -15,8 +15,8 @@
    </div>
 </footer>
 
-<script>jQuery('#slides').superslides()</script>
-<script>jQuery('#statics').superstatics()</script>
+<script>  jQuery('#slides').superslides()</script>
+<script>  jQuery('#statics').superstatics()</script>
 
 
 <script>  jQuery(".responsive_headline").fitText(1.2, { minFontSize: '20px', maxFontSize: '90px' })</script>

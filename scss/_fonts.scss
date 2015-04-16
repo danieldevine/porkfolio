@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 @font-face {
     font-family: 'latolight';
@@ -97,7 +110,7 @@
 
 }
 
-$main-face:  'latoregular';
+$main-face:  'OpenSansRegular';
 $hair-face:  'latohairline';
 $light-face: 'latolight';
 $bold-face:  'latobold';

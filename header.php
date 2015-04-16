@@ -18,10 +18,6 @@
 
 <link href="/favicon.ico" rel="shortcut icon">
 <?php wp_head(); ?>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-<script src="//use.typekit.net/hbv5yml.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
