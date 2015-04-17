@@ -9,11 +9,13 @@
   */
 ?>
 
+<!--
 <footer>
    <div class="footer-inner">
       <a href="#" class="more">© DANIEL DEVINE <?php echo date( "Y") ?></a>
    </div>
 </footer>
+-->
 
 <script>  jQuery('#slides').superslides()</script>
 <script>  jQuery('#statics').superstatics()</script>

@@ -83,9 +83,9 @@
 
   </ul>
 
-  <nav class="slides-navigation">
-    <a href="#" class="next"></a>
-    <a href="#" class="prev"></a>
-  </nav>
+<nav class="slides-navigation">
+        <a href="#" class="prev"></a>
+        <a href="#" class="next"></a>
+      </nav>
 
 </div>

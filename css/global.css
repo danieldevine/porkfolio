@@ -2098,27 +2098,30 @@ footer {
   z-index: 5;
   left: 0px;
   top: 0; }
-  #nave ul {
-    padding: 0 10%; }
-  #nave li {
-    width: 100%;
-    display: block; }
-  #nave a {
-    display: block;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 30px;
-    border-bottom: 1px dotted rgba(255, 253, 253, 0.94);
-    text-align: left;
-    color: rgba(255, 253, 253, 0.94); }
 
-#nave a:hover {
+.main-nav {
+  padding: 0 10%; }
+
+.main-nav li {
+  width: 100%;
+  display: block; }
+
+.main-nav li a {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 30px;
+  border-bottom: 1px dotted rgba(255, 253, 253, 0.94);
+  text-align: left;
+  color: rgba(255, 253, 253, 0.94); }
+
+.main-nav a:hover {
   color: #0c340c; }
 
-#nave li:first-child a {
+.main-nav:first-child a {
   border-top: 0; }
 
-#nave li:last-child a {
+.main-nav li:last-child a {
   border-bottom: 0; }
 
 .nav-toggle {
@@ -2205,39 +2208,39 @@ footer {
   margin: 0 auto;
   display: block; }
 
-#contact-details {
+.contact-details {
   margin-top: 20px;
   text-align: left;
   padding-left: 22px;
   text-indent: -10px; }
 
-#contact-details li {
+.contact-details li {
   text-transform: uppercase;
   font-size: 13px; }
 
-#contact-details li:first-child {
+.contact-details li:first-child {
   padding: 0.7em 0;
   font-size: 14px; }
 
-#contact-details ul li a {
-  border-bottom: 1px dotted rgba(28, 28, 33, 0.94);
-  display: initial;
-  font-size: 13px;
-  padding: 0;
-  margin: 0; }
-
-#social-nav {
+.social-nav {
   margin-top: 1em;
-  text-align: left; }
-  #social-nav li {
-    display: inline; }
-  #social-nav a {
-    display: inline;
-    margin: 0 3px;
-    font-size: 20px; }
+  text-align: center; }
+
+.social-nav li {
+  width: 100%;
+  display: inline; }
+
+.social-nav li a {
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 253, 253, 0.94);
+  display: inline;
+  margin: 0 3px;
+  font-size: 24px; }
 
 @media screen and (max-width: 985px) {
-  #contact-details, #social-nav {
+  .contact-details,
+  .social-nav {
     display: none; } }
 #statics {
   position: relative; }
@@ -2861,18 +2864,23 @@ a.lightbox-link:hover {
   clear: both; }
 
 .slides-navigation {
+  left: 10px;
   margin: 0 auto;
   position: absolute;
-  z-index: 3;
   bottom: 33px;
-  width: 100%;
-  z-index: 20; }
+  width: 20%;
+  z-index: 800; }
 
 .slides-navigation a {
   position: absolute;
   display: block;
-  color: #fff; }
+  color: #fff;
+  border: 0; }
 
+@media screen and (max-width: 985px) {
+  .slides-navigation {
+    bottom: 33px;
+    top: 64px; } }
 .slides-navigation a.prev {
   left: 10px; }
 
