@@ -1,3 +1,5 @@
+- here's a thought, put all portfolio items onto same page and into the slide mix. link with anchor hrefs
+
 # CSS ENFIXENING
 + check max width
 + adjust gallery item width

@@ -11,7 +11,7 @@
 }
 
 .BRS-submit-button {
-  background: $maincolor;
+  background: $thirdcolor;
   border-radius: 5px;
   border: 0;
   color: #fff;
@@ -27,6 +27,6 @@
 }
 
 .BRS-submit-button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: $fourthcolor;
   cursor: pointer;
 }

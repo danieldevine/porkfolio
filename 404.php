@@ -12,7 +12,7 @@
 <?php get_template_part('inc/PFO_main-nav'); ?>
 <div id="statics"><!--full screen, no sliding-->
 
-  <div id="logo2"><!--  this is the logo at weenie sizes-->
+  <div id="logo2"><!--  this is the logo at weenie ``-->
     <img src="<?php echo get_bloginfo('template_directory');?>/img/build/logo2.png">
   </div>
 
@@ -29,11 +29,12 @@
             <h2>We're sorry, but the content that you were looking for has moved, or doesn't exist.</h2>
 
           </div>
-
         </div>
       </div>
+
     </li>
   </ul>
+
 </div>
 
 <?php get_footer(); ?>

@@ -1679,7 +1679,7 @@ blockquote.right {
   width: 100%; }
 
 .BRS-submit-button {
-  background: rgba(28, 28, 33, 0.94);
+  background: rgba(30, 148, 30, 0.85);
   border-radius: 5px;
   border: 0;
   color: #fff;
@@ -1694,7 +1694,7 @@ blockquote.right {
   font-family: "latobold"; }
 
 .BRS-submit-button:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(52, 52, 52, 0.85);
   cursor: pointer; }
 
 html {
@@ -2053,81 +2053,38 @@ footer {
 .col:first-child {
   margin-left: 0; }
 
-/* all browsers except IE6 and lower */
-@media screen and (max-width: 823px) {
+@media only screen and (max-width: 823px) {
   .col {
-    margin: 0 0 0 0%; } }
-.span_12_of_12 {
-  width: 100%; }
-
-.span_11_of_12 {
-  width: 91.46%; }
-
-.span_10_of_12 {
-  width: 83%; }
+    margin: 1% 0 1% 0%; } }
+.span_4_of_12 {
+  width: 32.24%; }
 
 .span_9_of_12 {
   width: 74.54%; }
 
-.span_8_of_12 {
-  width: 66.08%; }
-
-.span_7_of_12 {
-  width: 57.62%; }
-
-.span_6_of_12 {
-  width: 49.16%; }
-
-.span_5_of_12 {
-  width: 40.7%; }
-
-.span_4_of_12 {
-  width: 32.24%; }
-
 .span_3_of_12 {
   width: 23.78%; }
 
-.span_2_of_12 {
-  width: 15.32%; }
-
-.span_1_of_12 {
-  width: 6.86%; }
+.span_4_of_12:nth-child(3n+1) {
+  clear: both;
+  margin-left: 0; }
 
 @media screen and (max-width: 823px) {
-  .span_12_of_12 {
-    width: 100%; }
+  .span_4_of_12 {
+    width: 49.16%; }
 
-  .span_11_of_12 {
-    width: 100%; }
+  .span_4_of_12:nth-child(2n+1) {
+    clear: both;
+    margin-left: 0; }
 
-  .span_10_of_12 {
-    width: 100%; }
+  .span_4_of_12:nth-child(3n+1) {
+    clear: none;
+    margin-left: 1.6%; }
 
   .span_9_of_12 {
     width: 100%; }
 
-  .span_8_of_12 {
-    width: 100%; }
-
-  .span_7_of_12 {
-    width: 100%; }
-
-  .span_6_of_12 {
-    width: 100%; }
-
-  .span_5_of_12 {
-    width: 100%; }
-
-  .span_4_of_12 {
-    width: 100%; }
-
   .span_3_of_12 {
-    width: 100%; }
-
-  .span_2_of_12 {
-    width: 100%; }
-
-  .span_1_of_12 {
     width: 100%; } }
 /*========== the main navigation block ==========*/
 #nave {
