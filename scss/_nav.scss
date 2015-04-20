@@ -14,7 +14,7 @@
 }
 
 .main-nav {
-  padding: 0 10%;
+  padding: 0 19%;
 }
 
 .main-nav li {
@@ -169,8 +169,17 @@
   color: $secondcolor;
   display: inline;
   margin: 0 3px;
-  font-size: 24px;
+  font-size: 20px;
 }
+
+
+@media screen and (max-width: 1125px) {
+  .social-nav li a {
+    margin: 0 2px;
+    font-size: 17px;
+  }
+}
+
 
 @media screen and (max-width: 985px) {
   .contact-details,

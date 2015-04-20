@@ -22,9 +22,9 @@
     <div class="col span_4_of_12">
       <div class="homebox">
         <div class="imgcatch preserve">
-          <a href="<?php the_permalink(); ?>">
+           <a href="<?php the_permalink(); ?>">
           <?php the_post_thumbnail( 'killernail', array( 'class' => 'preserve' ) ); ?>
-          <div class="centered-title responsive_headline"> <?php the_title(); ?></div>
+          <div class="centered-title"> <?php the_title(); ?></div>
           </a>
         </div>
       </div>
@@ -35,7 +35,5 @@
   <?php endif; ?>
 
   </div>
-
-
 
 </div>

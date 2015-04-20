@@ -1788,7 +1788,7 @@ blockquote:after {
   justify-content: center;
   height: 95%; }
 
-@media screen and (max-width: 823px) {
+@media screen and (max-width: 985px) {
   .flex-friend {
     height: auto; } }
 .mainwrapper {
@@ -1800,9 +1800,10 @@ blockquote:after {
 
 .mainwrapper h1 {
   text-transform: uppercase;
-  padding: 10px 20px 0;
+  padding: 25px 20px 0;
   margin: 0;
-  font-size: 3em; }
+  font-size: 3em;
+  font-weight: 900; }
 
 @media screen and (max-width: 985px) {
   .mainwrapper {
@@ -1870,7 +1871,7 @@ blockquote:after {
 @media screen and (max-width: 985px) {
   .gallery-wrapper {
     max-width: 100%;
-    margin: 0 auto; } }
+    margin: 0 auto 300px; } }
 .gallery-pholder {
   display: flex;
   justify-content: center;
@@ -1982,7 +1983,8 @@ input.button:hover {
   padding: 10px 0;
   margin: 0;
   font-size: 3.8em;
-  line-height: 1em; }
+  line-height: 1em;
+  font-weight: 900; }
 
 @media screen and (max-width: 985px) {
   .cv-wrapper {
@@ -2086,6 +2088,9 @@ footer {
 
   .span_3_of_12 {
     width: 100%; } }
+@media screen and (max-width: 480px) {
+  .span_4_of_12 {
+    width: 100%; } }
 /*========== the main navigation block ==========*/
 #nave {
   position: fixed !important;
@@ -2100,7 +2105,7 @@ footer {
   top: 0; }
 
 .main-nav {
-  padding: 0 10%; }
+  padding: 0 19%; }
 
 .main-nav li {
   width: 100%;
@@ -2236,8 +2241,12 @@ footer {
   color: rgba(255, 253, 253, 0.94);
   display: inline;
   margin: 0 3px;
-  font-size: 24px; }
+  font-size: 20px; }
 
+@media screen and (max-width: 1125px) {
+  .social-nav li a {
+    margin: 0 2px;
+    font-size: 17px; } }
 @media screen and (max-width: 985px) {
   .contact-details,
   .social-nav {
@@ -2366,16 +2375,17 @@ footer {
 
 .centered-title {
   position: absolute;
-  width: 100%;
+  width: 70%;
   top: 0%;
-  color: #fff;
+  left: 15%;
+  color: rgba(30, 148, 30, 0.85);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: none repeat scroll 0% 0% rgba(28, 28, 33, 0.94);
+  background: none repeat scroll 0% 0% rgba(255, 253, 253, 0.94);
   opacity: 0;
   transition: all 1s ease;
-  border-radius: 200px;
-  margin: 1em 0; }
+  margin: 1em 0;
+  padding: 1em 0; }
 
 .titlelay {
   top: 10px;
@@ -2387,10 +2397,7 @@ footer {
 
 .disappearer {
   opacity: 1.0;
-  top: 30%; }
-
-.responsive_headline {
-  padding: 1em 0; }
+  top: 35%; }
 
 /*========== Styling for the galleries and magnific popup ==========*/
 .mfp-bg {
@@ -2809,7 +2816,7 @@ img.mfp-img {
   .image-wrap {
     width: 100%;
     /* Change this value to have your thumbnails laid out differently */
-    margin-bottom: 0; } }
+    margin: -250px auto 0; } }
 .image-wrap img {
   width: 100%; }
 
@@ -2864,12 +2871,16 @@ a.lightbox-link:hover {
   clear: both; }
 
 .slides-navigation {
-  left: 10px;
+  left: 5.5%;
   margin: 0 auto;
   position: absolute;
-  bottom: 33px;
-  width: 20%;
-  z-index: 800; }
+  top: 500px;
+  width: 10%;
+  z-index: 800;
+  background: rgba(0, 0, 0, 0.07);
+  height: 50px;
+  line-height: 50px;
+  border-radius: 500px; }
 
 .slides-navigation a {
   position: absolute;
@@ -2879,8 +2890,13 @@ a.lightbox-link:hover {
 
 @media screen and (max-width: 985px) {
   .slides-navigation {
-    bottom: 33px;
-    top: 64px; } }
+    top: 64px;
+    width: 15%;
+    line-height: normal;
+    background: none; } }
+@media screen and (max-width: 480px) {
+  .slides-navigation {
+    width: 20%; } }
 .slides-navigation a.prev {
   left: 10px; }
 

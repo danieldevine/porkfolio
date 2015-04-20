@@ -22,27 +22,38 @@
   clear: both;
 }
 
-  .slides-navigation {
-    left: 10px;
-    margin: 0 auto;
-    position: absolute;
-    bottom: 33px;
-    width: 20%;
-    z-index: 800;
-  }
+.slides-navigation {
+  left: 5.5%;
+  margin: 0 auto;
+  position: absolute;
+  top: 500px;
+  width: 10%;
+  z-index: 800;
+  background: rgba(0, 0, 0, 0.07);
+  height: 50px;
+  line-height: 50px;
+  border-radius: 500px;
+}
 
-  .slides-navigation a {
+.slides-navigation a {
   position: absolute;
   display: block;
   color: #fff;
-  border:0;
+  border: 0;
 }
 
 @media screen and (max-width: 985px) {
-
-.slides-navigation {
-    bottom: 33px;
+  .slides-navigation {
     top: 64px;
+    width: 15%;
+    line-height:normal;
+    background:none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slides-navigation {
+    width: 20%;
   }
 }
 

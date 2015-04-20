@@ -391,9 +391,8 @@ img.mfp-img {
   @media screen and (max-width: 985px) {
     .image-wrap {
     width: 100%;/* Change this value to have your thumbnails laid out differently */
-    margin-bottom: 0;
+    margin: -250px auto 0;
   }
-
 }
 
 .image-wrap img {

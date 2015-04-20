@@ -54,7 +54,7 @@
   margin-left: 0;
 }
 
-@media screen and (max-width: 823px) {
+@media screen and (max-width: 823px) { // 3 becomes 2
   .span_4_of_12 {
     width: 49.16%;
   }
@@ -70,6 +70,12 @@
     width: 100%;
   }
   .span_3_of_12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) { // 2 becomes 1
+  .span_4_of_12 {
     width: 100%;
   }
 }
