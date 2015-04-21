@@ -1668,6 +1668,9 @@ blockquote.right {
 .lead-image img {
   max-width: 80%; }
 
+.massive-image {
+  opacity: 0.5; }
+
 .single-wrapper form label {
   font-weight: 300;
   color: rgba(28, 28, 33, 0.94);
@@ -1711,7 +1714,7 @@ body {
   width: 100%;
   color: #333;
   font-family: "OpenSansRegular";
-  background: rgba(255, 253, 253, 0.94) url("../img/build/14.png");
+  background: rgba(255, 253, 253, 0.8) url("../img/build/14.png");
   text-align: center;
   overflow: hidden; }
 
@@ -1752,7 +1755,7 @@ h1 {
   line-height: 1em;
   font-size: 3em;
   margin: 40px 0 20px;
-  color: rgba(255, 253, 253, 0.94); }
+  color: rgba(255, 253, 253, 0.8); }
 
 /*==========quotes==========*/
 blockquote {
@@ -1796,7 +1799,7 @@ blockquote:after {
   position: relative;
   margin-left: 21.5%;
   color: rgba(28, 28, 33, 0.94);
-  background: rgba(255, 253, 253, 0.94); }
+  background: rgba(255, 253, 253, 0.8); }
 
 .mainwrapper h1 {
   text-transform: uppercase;
@@ -1843,7 +1846,7 @@ blockquote:after {
   margin: 0 auto;
   padding: 15px 0;
   background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
-  box-shadow: 0 40px 80px  #fff; }
+  box-shadow: 0 40px 80px #fff; }
   #logo2 img {
     width: 120px; }
 
@@ -1866,7 +1869,8 @@ blockquote:after {
   .gallery-wrapper h1 {
     text-transform: uppercase;
     padding: 10px 0 0 0;
-    margin: 0; }
+    margin: 0;
+    font-weight: 900; }
 
 @media screen and (max-width: 985px) {
   .gallery-wrapper {
@@ -1948,6 +1952,13 @@ input.button:hover {
     display: none; } }
 .emph {
   color: rgba(30, 148, 30, 0.85); }
+
+.project-details {
+  text-align: left;
+  font-size: 12px; }
+
+.project-details li {
+  text-transform: uppercase; }
 
 /*========== Styling for the CV section ==========*/
 .cv {
@@ -2116,9 +2127,9 @@ footer {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 30px;
-  border-bottom: 1px dotted rgba(255, 253, 253, 0.94);
+  border-bottom: 1px dotted rgba(255, 253, 253, 0.8);
   text-align: left;
-  color: rgba(255, 253, 253, 0.94); }
+  color: rgba(255, 253, 253, 0.8); }
 
 .main-nav a:hover {
   color: #0c340c; }
@@ -2167,7 +2178,7 @@ footer {
     z-index: 500; }
 
   .nav-toggle:before {
-    color: rgba(255, 253, 253, 0.94);
+    color: rgba(255, 253, 253, 0.8);
     background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
     font-family: "fontawesome", sans-serif;
     font-style: normal;
@@ -2185,7 +2196,7 @@ footer {
     left: 0; }
 
   .nav-toggle.active:before {
-    color: rgba(255, 253, 253, 0.94);
+    color: rgba(255, 253, 253, 0.8);
     background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
     font-family: "fontawesome", sans-serif;
     font-style: normal;
@@ -2202,9 +2213,6 @@ footer {
     top: 0;
     left: 0; } }
 @media screen and (min-width: 76em) {
-  #nave {
-    width: 18em; }
-
   .main {
     width: auto;
     left: 18em; } }
@@ -2238,7 +2246,7 @@ footer {
 .social-nav li a {
   line-height: 30px;
   text-align: left;
-  color: rgba(255, 253, 253, 0.94);
+  color: rgba(255, 253, 253, 0.8);
   display: inline;
   margin: 0 3px;
   font-size: 20px; }
@@ -2337,7 +2345,7 @@ footer {
   width: auto; }
 
 .homebox h2 {
-  color: rgba(255, 253, 253, 0.94);
+  color: rgba(255, 253, 253, 0.8);
   padding: 0.5em 0.5em 0;
   font-size: 20px; }
 
@@ -2381,7 +2389,7 @@ footer {
   color: rgba(30, 148, 30, 0.85);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: rgba(255, 253, 253, 0.94);
+  background: rgba(255, 253, 253, 0.8);
   opacity: 0;
   transition: all 1s ease;
   margin: 1em 0;
@@ -2390,7 +2398,7 @@ footer {
 .titlelay {
   top: 10px;
   left: 0;
-  background: rgba(255, 253, 253, 0.94);
+  background: rgba(255, 253, 253, 0.8);
   color: rgba(30, 148, 30, 0.85);
   padding: 0.5em;
   min-width: 80%; }

@@ -1,13 +1,13 @@
 .flex-friend {
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  height:95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95%;
 }
 
 @media screen and (max-width: 985px) {
-  .flex-friend{
-    height:auto;
+  .flex-friend {
+    height: auto;
   }
 }
 
@@ -21,11 +21,10 @@
 
 .mainwrapper h1 {
   text-transform: uppercase;
-  padding:25px 20px 0;
+  padding: 25px 20px 0;
   margin: 0;
   font-size: 3em;
-  font-weight:900;
-
+  font-weight: 900;
 }
 
 @media screen and (max-width: 985px) {
@@ -55,6 +54,7 @@
       align-items: none;*/
   }
 }
+
 .logo i {
   font-size: 40px;
   font-weight: normal;
@@ -77,10 +77,10 @@
 #logo2 {
   position: relative;
   z-index: 400;
-  margin:0 auto;
-  padding:15px 0;
-  background:$thirdcolor $texture;
-  box-shadow: 0 40px 80px  #fff;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: $thirdcolor $texture;
+  box-shadow: 0 40px 80px #fff;
   img {
     width: 120px
   }
@@ -91,7 +91,6 @@
   padding: 10px;
   margin-bottom: 50px; //linked to footer height
   color: #fff;
-
   a {
     color: #fff;
     text-transform: uppercase;
@@ -105,18 +104,18 @@
   position: relative;
   margin-left: 23%;
   color: $maincolor;
-
-    h1 {
+  h1 {
     text-transform: uppercase;
     padding: 10px 0 0 0;
     margin: 0;
-    }
+    font-weight: 900;
+  }
 }
 
 @media screen and (max-width: 985px) {
   .gallery-wrapper {
     max-width: 100%;
-    margin:0 auto 300px;
+    margin: 0 auto 300px;
   }
 }
 
@@ -131,7 +130,7 @@
   line-height: 23px;
   text-align: left;
   padding: 0 2em 0.5em;
-  font-weight:300;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
@@ -147,12 +146,11 @@
   margin-left: 25%;
   margin-top: 10px;
   color: $maincolor;
-
-    h1 {
+  h1 {
     text-transform: uppercase;
     padding: 10px 0 0 0;
     margin: 0;
-    }
+  }
 }
 
 @media screen and (max-width: 985px) {
@@ -172,7 +170,7 @@ input.button {
   text-align: right;
   font-size: 1em;
   text-transform: uppercase;
-  transition:all 1s ease;
+  transition: all 1s ease;
 }
 
 .gfield_label {
@@ -188,12 +186,12 @@ input.button {
 input.button:hover {
   cursor: pointer;
   background: $thirdtint;
-  transition:all 1s ease;
+  transition: all 1s ease;
 }
 
 .top-screen {
   height: 150px;
-  width:100%;
+  width: 100%;
   @include fade-color;
   z-index: 399;
   position: fixed;
@@ -208,5 +206,15 @@ input.button:hover {
 }
 
 .emph {
-  color:$thirdcolor;
+  color: $thirdcolor;
 }
+
+.project-details {
+  text-align:left;
+  font-size:12px;
+}
+
+.project-details li{
+  text-transform:uppercase;
+}
+

@@ -12,15 +12,9 @@
   */
 ?>
 
-<?php the_post_thumbnail('massivenail'); ?> <!--this featured image fills the background of the slide-->
+<div class="massive-image"><?php the_post_thumbnail('massivenail'); ?> </div><!--this featured image fills the background of the slide-->
 
 <div class="container scrollable">
-
-    <?php $image = get_field('lead_image'); if( !empty($image) ): ?>
-     <div class="lead-image">
-       <img class="preserve" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
-     </div>
-    <?php endif; ?>
 
   <div class="flex-friend">
     <div class="mainwrapper">

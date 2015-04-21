@@ -18,7 +18,7 @@ For more info on how:
 [Learn Sass](http://sass-lang.com/guide)
 
 ##Plug In Dependencies
-Needs Gravity forms, ACF v4 and the ACF gallery plug in at the moment.
+Uses ACF v4 and the ACF gallery plug in at the moment.
 
 ##Credit
 This theme makes use of:

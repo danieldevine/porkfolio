@@ -17,7 +17,7 @@
     <img src="<?php echo get_bloginfo('template_directory');?>/img/build/logo2.png">
   </div>
 
-    <ul class="slides-container">
+<ul class="slides-container">
 
 
   <!--/////////////////////////////////////// hi slide 1 :) ///////////////////////////////////////////-->
@@ -81,11 +81,11 @@
 
 
 
-  </ul>
+</ul>
 
-<nav class="slides-navigation">
-        <a href="#" class="prev"></a>
-        <a href="#" class="next"></a>
-      </nav>
+  <nav class="slides-navigation">
+    <a href="#" class="prev"></a>
+    <a href="#" class="next"></a>
+  </nav>
 
 </div>

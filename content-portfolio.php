@@ -27,10 +27,19 @@
         <div class="gallery-wrapper"><!--  wrapper specific to gallery holding pages -->
 
         <?php get_template_part('inc/PFO_portfolio-gallery'); ?>
-        <h1><?php the_title(); ?></h1>
 
         <div class="gallery-pholder">
-          <p><?php the_content(); ?></p>
+          <p>
+           <ul class="project-details">
+            <li>CLIENT: <?php echo get_field('client'); ?></li>
+            <li><hr></li>
+            <li>LINK: <a href="http://<?php echo get_field('url'); ?>" target="blank"><?php echo get_field('url'); ?></a></li>
+            <li>PROJECT TYPE: <?php echo get_field('project_type'); ?></li>
+           </ul>
+          </p>
+
+              <p><div class="project-details"><?php echo get_field('description'); ?></div></p>
+
         </div>
 
         <div class="nextprev">
