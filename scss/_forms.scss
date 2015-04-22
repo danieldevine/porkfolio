@@ -30,3 +30,52 @@
   background: $fourthcolor;
   cursor: pointer;
 }
+
+.portfolio-flick{
+  left: 5.5%;
+  margin: 0 auto;
+  position: absolute;
+  top: 500px;
+  width: 10%;
+  z-index: 800;
+  background: rgba(0,0,0,0.07);
+  height: 50px;
+  line-height: 50px;
+  border-radius: 500px;
+}
+
+.portfolio-flick a {
+  position: absolute;
+  display: block;
+  color: #fff;
+  border: 0;
+  font-family: 'FontAwesome';
+}
+
+@media screen and (max-width: 985px) {
+  .portfolio-flick {
+    top: 64px;
+    width: 15%;
+    line-height:normal;
+    background:none;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .portfolio-flick {
+    width: 20%;
+  }
+}
+
+.portfolio-flick .prev a {
+  left: 10px;
+}
+
+
+.portfolio-flick .next a {
+
+  right: 10px;
+}
+
+

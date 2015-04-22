@@ -1700,6 +1700,40 @@ blockquote.right {
   background: rgba(52, 52, 52, 0.85);
   cursor: pointer; }
 
+.portfolio-flick {
+  left: 5.5%;
+  margin: 0 auto;
+  position: absolute;
+  top: 500px;
+  width: 10%;
+  z-index: 800;
+  background: rgba(0, 0, 0, 0.07);
+  height: 50px;
+  line-height: 50px;
+  border-radius: 500px; }
+
+.portfolio-flick a {
+  position: absolute;
+  display: block;
+  color: #fff;
+  border: 0;
+  font-family: 'FontAwesome'; }
+
+@media screen and (max-width: 985px) {
+  .portfolio-flick {
+    top: 64px;
+    width: 15%;
+    line-height: normal;
+    background: none; } }
+@media screen and (max-width: 480px) {
+  .portfolio-flick {
+    width: 20%; } }
+.portfolio-flick .prev a {
+  left: 10px; }
+
+.portfolio-flick .next a {
+  right: 10px; }
+
 html {
   height: 100%;
   margin: 0;
@@ -1714,7 +1748,7 @@ body {
   width: 100%;
   color: #333;
   font-family: "OpenSansRegular";
-  background: rgba(255, 253, 253, 0.8) url("../img/build/14.png");
+  background: rgba(255, 253, 253, 0.87) url("../img/build/14.png");
   text-align: center;
   overflow: hidden; }
 
@@ -1755,7 +1789,7 @@ h1 {
   line-height: 1em;
   font-size: 3em;
   margin: 40px 0 20px;
-  color: rgba(255, 253, 253, 0.8); }
+  color: rgba(255, 253, 253, 0.87); }
 
 /*==========quotes==========*/
 blockquote {
@@ -1789,7 +1823,7 @@ blockquote:after {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 95%; }
+  height: 100%; }
 
 @media screen and (max-width: 985px) {
   .flex-friend {
@@ -1799,7 +1833,7 @@ blockquote:after {
   position: relative;
   margin-left: 21.5%;
   color: rgba(28, 28, 33, 0.94);
-  background: rgba(255, 253, 253, 0.8); }
+  background: rgba(255, 253, 253, 0.87); }
 
 .mainwrapper h1 {
   text-transform: uppercase;
@@ -1862,9 +1896,9 @@ blockquote:after {
     font-size: 12px; }
 
 .gallery-wrapper {
-  max-width: 70%;
+  max-width: 71.5%;
   position: relative;
-  margin-left: 23%;
+  margin-left: 20.5%;
   color: rgba(28, 28, 33, 0.94); }
   .gallery-wrapper h1 {
     text-transform: uppercase;
@@ -1879,8 +1913,8 @@ blockquote:after {
 .gallery-pholder {
   display: flex;
   justify-content: center;
-  align-items: baseline;
-  margin-bottom: 50px; }
+  align-items: center;
+  margin: 20px auto 50px; }
 
 .gallery-pholder p {
   line-height: 23px;
@@ -1888,10 +1922,11 @@ blockquote:after {
   padding: 0 2em 0.5em;
   font-weight: 300; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 656px) {
   .gallery-pholder {
-    flex-direction: column-reverse;
-    align-items: none; } }
+    flex-direction: column;
+    align-items: baseline;
+    padding: 1em 2em; } }
 .portfolio-wrapper {
   max-width: 100%;
   position: relative;
@@ -1958,7 +1993,8 @@ input.button:hover {
   font-size: 12px; }
 
 .project-details li {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 0.5em; }
 
 /*========== Styling for the CV section ==========*/
 .cv {
@@ -2127,9 +2163,9 @@ footer {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 30px;
-  border-bottom: 1px dotted rgba(255, 253, 253, 0.8);
+  border-bottom: 1px dotted rgba(255, 253, 253, 0.87);
   text-align: left;
-  color: rgba(255, 253, 253, 0.8); }
+  color: rgba(255, 253, 253, 0.87); }
 
 .main-nav a:hover {
   color: #0c340c; }
@@ -2178,7 +2214,7 @@ footer {
     z-index: 500; }
 
   .nav-toggle:before {
-    color: rgba(255, 253, 253, 0.8);
+    color: rgba(255, 253, 253, 0.87);
     background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
     font-family: "fontawesome", sans-serif;
     font-style: normal;
@@ -2196,7 +2232,7 @@ footer {
     left: 0; }
 
   .nav-toggle.active:before {
-    color: rgba(255, 253, 253, 0.8);
+    color: rgba(255, 253, 253, 0.87);
     background: rgba(30, 148, 30, 0.85) url("../img/build/14.png");
     font-family: "fontawesome", sans-serif;
     font-style: normal;
@@ -2246,7 +2282,7 @@ footer {
 .social-nav li a {
   line-height: 30px;
   text-align: left;
-  color: rgba(255, 253, 253, 0.8);
+  color: rgba(255, 253, 253, 0.87);
   display: inline;
   margin: 0 3px;
   font-size: 20px; }
@@ -2345,7 +2381,7 @@ footer {
   width: auto; }
 
 .homebox h2 {
-  color: rgba(255, 253, 253, 0.8);
+  color: rgba(255, 253, 253, 0.87);
   padding: 0.5em 0.5em 0;
   font-size: 20px; }
 
@@ -2389,7 +2425,7 @@ footer {
   color: rgba(30, 148, 30, 0.85);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: rgba(255, 253, 253, 0.8);
+  background: rgba(255, 253, 253, 0.87);
   opacity: 0;
   transition: all 1s ease;
   margin: 1em 0;
@@ -2398,7 +2434,7 @@ footer {
 .titlelay {
   top: 10px;
   left: 0;
-  background: rgba(255, 253, 253, 0.8);
+  background: rgba(255, 253, 253, 0.87);
   color: rgba(30, 148, 30, 0.85);
   padding: 0.5em;
   min-width: 80%; }
@@ -2818,16 +2854,20 @@ img.mfp-img {
   width: 30%;
   /* Change this value to have your thumbnails laid out differently */
   margin-bottom: 4px;
-  display: inline-block; }
+  display: inline-block;
+  background: rgba(53, 70, 33, 0.07); }
 
-@media screen and (max-width: 985px) {
-  .image-wrap {
-    width: 100%;
-    /* Change this value to have your thumbnails laid out differently */
-    margin: -250px auto 0; } }
 .image-wrap img {
   width: 100%; }
 
+@media screen and (max-width: 656px) {
+  .image-wrap {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 a.lightbox-link {
   -webkit-transition: all 0.25s ease-in-out 0s;
   -moz-transition: all 0.25s ease-in-out 0s;

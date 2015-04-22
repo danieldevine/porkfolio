@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 95%;
+  height: 100%;
 }
 
 @media screen and (max-width: 985px) {
@@ -100,9 +100,9 @@
 }
 
 .gallery-wrapper {
-  max-width: 70%;
+  max-width: 71.5%;
   position: relative;
-  margin-left: 23%;
+  margin-left: 20.5%;
   color: $maincolor;
   h1 {
     text-transform: uppercase;
@@ -122,8 +122,8 @@
 .gallery-pholder {
   display: flex;
   justify-content: center;
-  align-items: baseline;
-  margin-bottom: 50px;
+  align-items: center;
+  margin:20px auto 50px;
 }
 
 .gallery-pholder p {
@@ -133,10 +133,11 @@
   font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 656px) {
   .gallery-pholder {
-    flex-direction: column-reverse;
-    align-items: none;
+    flex-direction: column;
+    align-items: baseline;
+    padding:1em 2em;
   }
 }
 
@@ -216,5 +217,5 @@ input.button:hover {
 
 .project-details li{
   text-transform:uppercase;
+  margin-top:0.5em;
 }
-

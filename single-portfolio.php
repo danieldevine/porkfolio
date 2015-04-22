@@ -9,13 +9,13 @@
  *
  *this is the loop and template for the individual pages in the portfolio section.
  */
-
 get_header(); ?>
 
 <?php get_template_part('inc/PFO_main-nav'); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 <?php get_template_part( 'content', 'portfolio'); ?>
+
 <?php endwhile; // end of the loop. ?>
 
 <?php get_footer(); ?>

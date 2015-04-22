@@ -13,7 +13,10 @@
 ?>
 
 <div id="statics"><!--full screen, no sliding-->
-
+  <div class="portfolio-flick">
+    <div class="next"><?php previous_post('%', '&#xf054;', 'no'); ?></div>
+    <div class="prev"><?php next_post('%', '&#xf053;', 'no'); ?></div>
+  </div>
   <div id="logo2"><!--  this is the logo at weenie sizes-->
     <img src="<?php echo get_bloginfo('template_directory');?>/img/build/logo2.png">
   </div>
